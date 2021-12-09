@@ -111,17 +111,7 @@ const UserInterface = () => {
                 </section>
             </main>
 
-            <footer id="footer" className="site-footer">
-                <div className="wrapper no-space">
-                    <div className="row">
-                        <div className="col-xl-4 col-lg-4 align-self-center">
-                            <div className="copyright">
-                                <p>© 2020 Portfolio Template By <a href="https://www.adveits.com">Adveits</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+           
         </Fragment>
     );
 };

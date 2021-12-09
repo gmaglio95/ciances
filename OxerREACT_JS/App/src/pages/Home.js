@@ -9,14 +9,19 @@ import PageTitleHome from '../blocks/page-title/PageTitleHome';
 import Works from '../blocks/works/Works';
 import Journal from '../blocks/blog/Blog';
 import Contacts from '../blocks/contacts/Contacts';
+import AboutContent from '../blocks/about/AboutContent';
+import HeaderScroll from '../blocks/header/HeaderScroll';
 
 const Home = () => {
-    document.body.classList.add( 'home' );
-    document.body.classList.add( 'bg-fixed' );
-    
+
+
+    document.body.classList.add('home');
+    document.body.classList.add('bg-fixed');
+
 
     return (
         <Fragment>
+
             <MetaTags>
                 <meta charSet="UTF-8" />
                 <title>Home | Oxer - Minimal Portfolio React Template</title>
@@ -33,15 +38,18 @@ const Home = () => {
 
             <Loading />
 
-            <Header />
+            <HeaderScroll />
 
             <main id="main" className="site-main">
-
-                <Works />
-
-                <Contacts />
-
-                <Journal />
+                <div id="work">
+                    <Works />
+                </div>
+                <div id="about">
+                    <AboutContent />
+                </div>
+                <div id="contact">
+                    <Contacts />
+                </div>
             </main>
 
             <Footer />

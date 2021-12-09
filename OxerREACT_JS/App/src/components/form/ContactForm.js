@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import emailjs from 'emailjs-com';
 import axios from 'axios';
 
 class ContactForm extends Component {
     constructor( props ) {
         super( props );
-
+        emailjs.init("user_WEMEQF9MW2PaYSCN5YUY5");
+        
         this.state = {
             values: {
                 name: '',
@@ -22,11 +24,14 @@ class ContactForm extends Component {
     }
 
     submitForm = async e => {
-        e.preventDefault();
 
+      
+        e.preventDefault();
+        
         if ( document.querySelector( '#alert' ) ) {
             document.querySelector( '#alert' ).remove();
         }
+        emailjs.send("service_xioc7zk","template_omk2ebo",this.state.values);
 
         this.setState( { isSubmitting: true } );
 

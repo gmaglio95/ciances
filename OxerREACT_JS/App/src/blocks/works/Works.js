@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Gallery from '../gallery/Gallery';
 
 const Works = () => {
@@ -6,11 +7,15 @@ const Works = () => {
         <section id="my-works" className="block spacer m-top-xl">
             <div className="wrapper">
                 <h2>
-                    <a title="My works" className="transform-scale-h" href={ process.env.PUBLIC_URL + "/works" }>My <span className="line">works</span></a>
+                    <a title="My works" className="transform-scale-h" href={process.env.PUBLIC_URL + "/works"}>My <span className="line">works</span></a>
                 </h2>
             </div>
+            {/* <NetSlider
+				className='netslider_title_card'
+				data={data}
+			/> */}
 
-            <Gallery seeMore={ "true" } paddingBottomClass="" />
+            <Gallery  paddingBottomClass="" />
         </section>
     );
 };
