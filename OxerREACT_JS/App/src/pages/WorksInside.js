@@ -9,7 +9,7 @@ const WorksInside = () => {
     document.body.classList.add( 'single' );
     document.body.classList.add( 'single-portfolio' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    
     return (
         <Fragment>
             <MetaTags>
