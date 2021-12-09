@@ -11,7 +11,7 @@ import ContactForm from '../components/form/ContactForm';
 const Contacts = () => {
     document.body.classList.add( 'page' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    
 
     return (
         <Fragment>

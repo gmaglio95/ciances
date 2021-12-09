@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../../blocks/logo/Logo';
 import SearchModal from '../../components/modal/SearchModal';
 import MenuModal from '../../components/modal/MenuModal';
+import Menu from '../../components/menu/Menu'
 
 const Header = () => {
     return (
@@ -11,9 +12,10 @@ const Header = () => {
                     <Logo image={ "/assets/img/logo/logo.svg" } />
                 </div>
 
-                <SearchModal />
+                {/* <SearchModal /> */}
 
-                <MenuModal />
+                <Menu />
+
             </div>
         </header>
     );

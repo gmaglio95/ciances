@@ -16,7 +16,7 @@ import Widget from '../blocks/widget/Widget';
 const JournalSinglePost = () => {
     document.body.classList.add( 'single-post' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    
 
     return (
         <Fragment>

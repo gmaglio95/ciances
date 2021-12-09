@@ -22,7 +22,7 @@ const Background = () => {
                 '<div className="bg-half-ring-up"></div>\n' +
                 '<div className="bg-half-ring-center"></div>\n' +
                 '\n' +
-                '<div className="bg-line"></div>\n' +
+                
                 '<div className="bg-fixed"></div>' +
                 '' }
                 language="html"

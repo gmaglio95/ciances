@@ -13,7 +13,7 @@ import Contacts from '../blocks/contacts/Contacts';
 const Home = () => {
     document.body.classList.add( 'home' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    
 
     return (
         <Fragment>

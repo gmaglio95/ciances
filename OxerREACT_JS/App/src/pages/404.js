@@ -12,7 +12,7 @@ import SearchForm from '../components/form/SearchForm';
 const page404 = () => {
     document.body.classList.add( 'error404' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    
 
     return (
         <Fragment>

@@ -11,7 +11,7 @@ import Gallery from '../blocks/gallery/Gallery';
 const Works = () => {
     document.body.classList.add( 'archive' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    
 
     return (
         <Fragment>

@@ -13,7 +13,7 @@ import LoadMoreButton from '../components/loadmore/LoadMore';
 const Journal = () => {
     document.body.classList.add( 'blog' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    
 
     return (
         <Fragment>

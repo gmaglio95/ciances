@@ -11,7 +11,7 @@ import SearchItemsData from '../data/search-results/searchItems';
 const SearchResults = () => {
     document.body.classList.add( 'search-results' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    
 
     return (
         <Fragment>

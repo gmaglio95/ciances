@@ -33,7 +33,7 @@ import Sidebar from '../blocks/ui/sidebar/Sidebar';
 const UserInterface = () => {
     document.body.classList.add( 'ui' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    
 
     return (
         <Fragment>

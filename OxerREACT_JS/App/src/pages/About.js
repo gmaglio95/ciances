@@ -13,7 +13,7 @@ import Awards from '../blocks/about/Awards';
 const About = () => {
     document.body.classList.add( 'page' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    
 
     return (
         <Fragment>
