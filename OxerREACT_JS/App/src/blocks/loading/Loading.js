@@ -39,7 +39,7 @@ class Loading extends Component {
                     <div className="d-flex justify-content-center align-items-center h-100">
                         <div className="loading-content">
                             <div className="logo logo-secondary">
-                                <img className="animated zoomin" src="assets/img/logo/logo-2.svg" alt="Logo" />
+                                <img className="animated zoomin" src="/assets/img/logo/logo-2.svg" alt="Logo" />
                             </div>
                         </div>
                     </div>

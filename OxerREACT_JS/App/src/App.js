@@ -62,7 +62,7 @@ function App() {
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-inside" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/works-inside/:id" }` }
                     component={ WorksInside }
                 />
                 <Route exact component={ page404 }/>

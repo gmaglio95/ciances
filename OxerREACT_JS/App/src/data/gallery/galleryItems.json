@@ -1,10 +1,10 @@
 [
     {
         "id": "1",
-        "title": "Leaf photography",
+        "title": "DIA 1991 - Parlare poco Apparire mai",
         "category": "gallery-item-visible product",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
+        "imgLink": "/assets/works/DIA1991/ManifestoDIA1991stampa.jpg",
         "button": "Look inside"
     },
     {
@@ -12,7 +12,7 @@
         "title": "Glasses photography",
         "category": "gallery-item-visible culture personal portrait",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
+        "imgLink": "/assets/img/placeholder/637x637.jpg",
         "button": "Look inside"
     },
     {
