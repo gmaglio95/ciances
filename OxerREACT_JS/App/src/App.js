@@ -65,6 +65,11 @@ function App() {
                     path={ `${ process.env.PUBLIC_URL + "/works-inside/:id" }` }
                     component={ WorksInside }
                 />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/404" }` }
+                    component={ page404 }
+                />
                 <Route exact component={ page404 }/>
             </Switch>
         </Router>

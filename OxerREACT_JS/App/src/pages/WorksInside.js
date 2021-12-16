@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
-
+import { Redirect } from "react-router-dom";
 import Loading from '../blocks/loading/Loading';
 import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
@@ -41,8 +41,11 @@ class WorksInside extends Component {
         let gallery = Object(GalleryItemsData.filter(gallery => {
             return gallery.id == this.props.match.params.id;
         }));
-
-        this.setState({ workInsideItem: workInside[0], imageList: images, galleryImgLink: gallery[0].imgLink });
+        if (workInside && workInside[0] && gallery[0]) {
+            this.setState({ workInsideItem: workInside[0], imageList: images, galleryImgLink: gallery[0].imgLink });
+        } else {
+            window.location.href = process.env.PUBLIC_URL + "/404";
+        }
     }
 
 
@@ -96,7 +99,7 @@ class WorksInside extends Component {
                                             </div>
                                         </div>
                                         }
-                                        {this.state.workInsideItem.montaggio && this.state.workInsideItem.montaggio != "" &&<div className="row gutter-width-lg single-content" >
+                                        {this.state.workInsideItem.montaggio && this.state.workInsideItem.montaggio != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description">
                                                     <div class="inline-div ">Montato Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.montaggio}</h6></div>
@@ -109,7 +112,7 @@ class WorksInside extends Component {
                                                     <div class="inline-div ">Scritto Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.scrittura}</h6></div>
                                                 </div>
                                             </div>
-                                        </div> }
+                                        </div>}
                                         {this.state.workInsideItem.distribuzione && this.state.workInsideItem.distribuzione != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
@@ -118,13 +121,13 @@ class WorksInside extends Component {
                                             </div>
                                         </div>}
                                         {this.state.workInsideItem.produzione && this.state.workInsideItem.produzione != "" &&
-                                        <div className="row gutter-width-lg single-content" >
-                                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                                <div className="description ">
-                                                    <div class="inline-div ">Prodotto Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.produzione}</h6></div>
+                                            <div className="row gutter-width-lg single-content" >
+                                                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                                    <div className="description ">
+                                                        <div class="inline-div ">Prodotto Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.produzione}</h6></div>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div> }
+                                            </div>}
                                         {this.state.workInsideItem.direzione && this.state.workInsideItem.produzioneEsecutiva != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
@@ -132,7 +135,7 @@ class WorksInside extends Component {
                                                 </div>
                                             </div>
                                         </div>}
-                                        
+
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 margin-bottom align-center">
                                         <img src={process.env.PUBLIC_URL + this.state.galleryImgLink} alt={process.env.PUBLIC_URL + this.state.galleryImgLink} />
@@ -145,7 +148,7 @@ class WorksInside extends Component {
                                             {this.state.workInsideItem.sinossi}
                                         </div>
                                     </div>
-                                </div> }
+                                </div>}
                                 <div className="row gutter-width-lg single-content" >
                                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                         <h3 className='align-center'>Articoli e premi</h3>
