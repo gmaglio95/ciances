@@ -41,13 +41,13 @@ const Contacts = () => {
                         <div id="contacts" className="block">
                             <div className="row">
                                 <div className="col-xl-4 col-lg-4 col-md-4 col-12">
-                                    <h2>Here you <br/>can <span className="line">contact me</span></h2>
+                                    <h2>Contact Me !</h2>
 
-                                    <p className="mt-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                                    {/* <p className="mt-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p> */}
                                 </div>
 
                                 <div className="col-xl-8 col-lg-8 col-md-8 col-12">
-                                    <div className="list-group list-group-horizontal-sm">
+                                    {/* <div className="list-group list-group-horizontal-sm">
                                         <div className="list-group-item">
                                             <h4>City</h4>
 
@@ -71,13 +71,13 @@ const Contacts = () => {
 
                                             <p><a title="719-338-4628" href="tel:719-338-4628">719-338-4628</a></p>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     <div className="list-group list-group-horizontal-sm mt-0">
                                         <div className="list-group-item mb-0 pb-0">
                                             <h4>Email</h4>
 
-                                            <p><a title="hello@yourdomain.com" href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></p>
+                                            <p><a title="info@gabrieleciances.com" href="mailto:info@gabrieleciances.com">info@gabrieleciances.com</a></p>
                                         </div>
                                     </div>
                                 </div>

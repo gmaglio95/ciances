@@ -4,7 +4,7 @@ const AboutContent = () => {
     return (
         <div id="about" className="block">
             <h2>
-                <span className="line">A passionate</span><br /> photographer, designer in media.
+                <span className="line">Gabriele Ciances</span><br /> Film Director
             </h2>
 
             <div className="row bg-half-ring-left gutter-width-lg">
