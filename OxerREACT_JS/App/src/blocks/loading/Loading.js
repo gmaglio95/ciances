@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 class Loading extends Component {
     performTimeConsumingTask = async () => {
-        return new Promise( ( resolve ) =>
+        return new Promise((resolve) =>
             setTimeout(
                 () => {
-                    resolve( 'result' )
+                    resolve('result')
                 },
                 500
             )
@@ -15,20 +15,20 @@ class Loading extends Component {
     async componentDidMount() {
         // Preload data from an external API
         // Preload data using AsyncStorage
-        const data  = await this.performTimeConsumingTask();
-        var loading = document.getElementsByClassName( 'loading' );
+        const data = await this.performTimeConsumingTask();
+        var loading = document.getElementsByClassName('loading');
 
-        if ( data !== null ) {
-            loading[0].classList.add( 'animated' );
-            loading[0].classList.add( 'slideOutRight' );
+        if (data !== null) {
+            loading[0].classList.add('animated');
+            loading[0].classList.add('slideOutRight');
 
             // Android check
-            var ua        = navigator.userAgent.toLowerCase();
-            var isAndroid = ua.indexOf( 'android' ) > -1;
+            var ua = navigator.userAgent.toLowerCase();
+            var isAndroid = ua.indexOf('android') > -1;
 
             //if ( isAndroid ) {
-              //  loading[0].style.display( 'none' );
-        //    }
+            //  loading[0].style.display( 'none' );
+            //    }
         }
     }
 
@@ -39,7 +39,7 @@ class Loading extends Component {
                     <div className="d-flex justify-content-center align-items-center h-100">
                         <div className="loading-content">
                             <div className="logo logo-secondary">
-                                <img className="animated zoomin" src="/assets/img/logo/logo-2.svg" alt="Logo" />
+                                <img className="animated zoomin" src={process.env.PUBLIC_URL + "/assets/img/logo/logo-2.svg"} alt="Logo" />
                             </div>
                         </div>
                     </div>

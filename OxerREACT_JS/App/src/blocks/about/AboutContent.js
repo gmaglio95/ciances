@@ -11,7 +11,7 @@ const AboutContent = () => {
                 <div className="col align-self-top pl-0">
                     <div className="img object-fit">
                         <div className="object-fit-cover">
-                            <img src="/assets/img/profilo.png" alt="Gabriele Ciances" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/profilo.png"} alt="Gabriele Ciances" className="img-fluid" />
                         </div>
                     </div>
                 </div>

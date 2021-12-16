@@ -88,62 +88,64 @@ class WorksInside extends Component {
                                             <div className="margin-bottom-top"><a className="btn btn-link transform-scale-h border-0 p-0" href={this.state.workInsideItem.linkSite}> {this.state.workInsideItem.title} </a> </div>
                                         </div>
                                         <h3>Credits</h3>
-                                        <div className="row gutter-width-lg single-content" >
+                                        {this.state.workInsideItem.direzione && this.state.workInsideItem.direzione != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
                                                     <div class="inline-div ">Diretto Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.direzione}</h6></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="row gutter-width-lg single-content" >
+                                        }
+                                        {this.state.workInsideItem.montaggio && this.state.workInsideItem.montaggio != "" &&<div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description">
                                                     <div class="inline-div ">Montato Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.montaggio}</h6></div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="row gutter-width-lg single-content" >
+                                        </div>}
+                                        {this.state.workInsideItem.scrittura && this.state.workInsideItem.scrittura != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
                                                     <div class="inline-div ">Scritto Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.scrittura}</h6></div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="row gutter-width-lg single-content" >
+                                        </div> }
+                                        {this.state.workInsideItem.distribuzione && this.state.workInsideItem.distribuzione != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
                                                     <div class="inline-div ">Distribuito Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.distribuzione}</h6></div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>}
+                                        {this.state.workInsideItem.produzione && this.state.workInsideItem.produzione != "" &&
                                         <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
                                                     <div class="inline-div ">Prodotto Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.produzione}</h6></div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="row gutter-width-lg single-content" >
+                                        </div> }
+                                        {this.state.workInsideItem.direzione && this.state.workInsideItem.produzioneEsecutiva != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
                                                     <div class="inline-div ">Produttori Esecutivi : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.produzioneEsecutiva}</h6></div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        {/* <div className='margin-bottom-top'>{this.state.workInsideItem.credits}</div> */}
+                                        </div>}
+                                        
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 margin-bottom align-center">
-                                        <img src={this.state.galleryImgLink} alt={this.state.galleryImgLink} />
+                                        <img src={process.env.PUBLIC_URL + this.state.galleryImgLink} alt={process.env.PUBLIC_URL + this.state.galleryImgLink} />
                                     </div>
                                 </div>
-                                <div className="row gutter-width-lg single-content margin-bottom" >
+                                {this.state.workInsideItem.sinossi && this.state.workInsideItem.sinossi != "" && <div className="row gutter-width-lg single-content margin-bottom" >
                                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
                                         <h3 className='align-center'>Sinossi</h3>
-                                        <div className="description align-center">
+                                        <div className="description align-center padding-right-left-15">
                                             {this.state.workInsideItem.sinossi}
                                         </div>
                                     </div>
-                                </div>
+                                </div> }
                                 <div className="row gutter-width-lg single-content" >
                                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                         <h3 className='align-center'>Articoli e premi</h3>
@@ -158,7 +160,7 @@ class WorksInside extends Component {
                                             return (
                                                 <div className="img object-fit">
                                                     <div className="object-fit-cover margin">
-                                                        <img src={item.imgLink} alt={item.title} />
+                                                        <img src={process.env.PUBLIC_URL + item.imgLink} alt={process.env.PUBLIC_URL + item.title} />
                                                     </div>
                                                 </div>
 

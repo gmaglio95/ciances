@@ -104,7 +104,7 @@ class Gallery extends Component {
                                 <a key={key} title={item.title} className={"gallery-item active " + item.category} href={process.env.PUBLIC_URL + item.link + "/" + item.id}>
                                     <div className="img object-fit">
                                         <div className="object-fit-contain">
-                                            <img src={item.imgLink} alt={item.title} />
+                                            <img src={process.env.PUBLIC_URL + item.imgLink} alt={process.env.PUBLIC_URL  + item.title} />
                                         </div>
                                     </div>
 
