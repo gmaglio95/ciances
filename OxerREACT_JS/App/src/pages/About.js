@@ -35,7 +35,7 @@ const About = () => {
 
             <Header />
 
-            <main id="main" className="site-main">
+            <main id="main" className="site-main ">
                 <PageTitleAbout />
 
                 <section id="page-content" className="spacer p-top-xl">

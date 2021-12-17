@@ -40,7 +40,7 @@ const Home = () => {
 
             <HeaderScroll />
 
-            <main id="main" className="site-main">
+            <main id="main" className="site-main site-main-home">
                 <div id="work">
                     <Works />
                 </div>

@@ -9,7 +9,7 @@ const Contacts = () => {
                     </h3> */}
 
                     <div className="block spacer p-top-lg">
-                        <a title="Contact" href={ process.env.PUBLIC_URL + "/contacts" } className="btn btn-dark btn-bold transform-scale-h border-0">Contact</a>
+                        <a title="Contatti" href={ process.env.PUBLIC_URL + "/contacts" } className="btn btn-dark btn-bold transform-scale-h border-0">Contatti</a>
                     </div>
                 </div>
             </div>

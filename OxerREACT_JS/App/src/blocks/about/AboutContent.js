@@ -2,12 +2,12 @@ import React from 'react';
 
 const AboutContent = () => {
     return (
-        <div id="about" className="block">
+        <div id="about" className="block spacer m-top-xl">
             <h2>
                 <span className="line">Gabriele Ciances</span><br /> Film Director
             </h2>
 
-            <div className="row bg-half-ring-left gutter-width-lg">
+            <div className="row bg-half-ring-left gutter-width-lg about-padding-left">
                 <div className="col align-self-top pl-0">
                     <div className="img object-fit">
                         <div className="object-fit-cover">

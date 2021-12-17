@@ -16,7 +16,7 @@ class MenuScroll extends Component {
                             <Link activeClass="active" to="about" className="btn btn-link transform-scale-h border-0 p-0" spy={true} smooth={true}>Bio</Link>
                         </li>
                         <li key="Contacts">
-                            <Link activeClass="active" to="contact" className="btn btn-link transform-scale-h border-0 p-0" spy={true} smooth={true}>Contatti</Link>
+                            <a title="Home" className="btn btn-link transform-scale-h border-0 p-0" href={process.env.PUBLIC_URL + "/contacts"}>Contatti</a>
                         </li>
                     </ul>
                 </nav>

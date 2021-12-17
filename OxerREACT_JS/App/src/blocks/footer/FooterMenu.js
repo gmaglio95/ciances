@@ -12,6 +12,7 @@ const FooterMenu = () => {
                                 title={ item.title }
                                 className="btn btn-link transform-scale-h border-0 p-0"
                                 href={ item.link }
+                                target={'_blank'}
                             >
                                 { item.title }
                             </a>
