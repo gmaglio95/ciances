@@ -73,7 +73,7 @@ class WorksInside extends Component {
 
                 <Header />
 
-                <main id="main" className="site-main bg-half-ring-right bg-half-ring-top">
+                <main id="main" className="site-main bg-half-ring-right bg-half-ring-top work-inside-main">
                     <section id="page-content">
                         <div className="wrapper">
                             <div id="single">

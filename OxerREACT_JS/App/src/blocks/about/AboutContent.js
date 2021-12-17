@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutContent = () => {
     return (
-        <div id="about" className="block spacer m-top-xl">
+        <div id="about" className="block spacer m-top-xl wrapper-about">
             <h2>
                 <span className="line">Gabriele Ciances</span><br /> Film Director
             </h2>

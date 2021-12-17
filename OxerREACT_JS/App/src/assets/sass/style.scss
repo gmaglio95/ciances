@@ -250,12 +250,43 @@ body {
     }
 }
 
+
+.wrapper-works {
+    padding-left:8.5%;
+    padding-right:8.5%;
+}
+.wrapper-about {
+    max-width: $wrapper_max_w;
+    
+    margin: auto;
+    
+    @media #{$media_xxl} {
+        padding-left: 3.75rem;
+        padding-right: 3.75rem;
+    }
+    
+    @media #{$media_xl} {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    
+    @media #{$media_sm} {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+
 .about-padding-left {
     padding-left:0;
 }
 
 .site-main-home {
     padding-top:0;
+}
+
+.work-inside-main {
+    padding-bottom:0;
 }
 
 /*=============================
