@@ -5,7 +5,7 @@ import axios from 'axios';
 class ContactForm extends Component {
     constructor( props ) {
         super( props );
-        emailjs.init("user_WEMEQF9MW2PaYSCN5YUY5");
+        emailjs.init("user_2seXrSExGmFvXckjeKIlW");
         
         this.state = {
             values: {
@@ -31,32 +31,24 @@ class ContactForm extends Component {
         if ( document.querySelector( '#alert' ) ) {
             document.querySelector( '#alert' ).remove();
         }
-        emailjs.send("service_xioc7zk","template_omk2ebo",this.state.values);
-
-        this.setState( { isSubmitting: true } );
-
-        axios.post( 'https://store.adveits.com/API/form.php', this.state.values, {
-            headers: {
-                'Access-Control-Allow-Origin': '*',
-                'Content-Type': 'application/json; charset=UTF-8'
-            },
-        }, ).then( response => {
-            if ( response.data.status === 'success' ) {
+        emailjs.send("service_cx3l55n","template_jivjru5",this.state.values).then( response => {
+            if ( response.status === 200 ) {
                 this.setState( { responseMessage: this.state.successMessage } );
-            }
-
-            if ( response.data.status === 'warning' ) {
-                this.setState( { responseMessage: this.state.warningMessage } );
-            }
-
-            if ( response.data.status === 'error' ) {
+            }else {
                 this.setState( { responseMessage: this.state.errorMessage } );
             }
 
-            this.callAlert( this.state.responseMessage, response.data.status )
+            // if ( response.data.status === 'warning' ) {
+            //     this.setState( { responseMessage: this.state.warningMessage } );
+            // }
+            this.callAlert( this.state.responseMessage, response.status )
         } ).catch( error => {
             this.callAlert( this.state.errorMessage, 'error' )
         } );
+
+        this.setState( { isSubmitting: true } );
+
+        
     };
 
     removeAlert = () => {
