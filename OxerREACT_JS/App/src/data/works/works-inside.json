@@ -12,8 +12,37 @@
         "produzione": "42° Parallelo e Rai Cinema",
         "produzioneEsecutiva": "Mauro Parissone e Laura Giglielmetti",
         "description": "Descrizione",
-        "interpreti":"Interpreti",
-        "protagonisti":""
-
+        "interpreti": "Interpreti",
+        "protagonisti": "",
+        "articoli": [
+            {
+                "name": "Ansa",
+                "link": "https://www.ansa.it/sito/notizie/cronaca/2021/10/22/parlare-poco-apparire-mai-film-sui-30-anni-della-dia_7f3a8d1f-9394-4f9a-8eb7-232030232df4.html"
+            },
+            {
+                "name": "La Stampa",
+                "link": "https://www.lastampa.it/spettacoli/2021/10/22/video/dia_1991-_parlare_poco_apparire_mai_il_film_sulla_nascita_e_le_battaglie_dell_antimafia-296483/"
+            },
+            {
+                "name": "Palermo Repubblica",
+                "link": "https://palermo.repubblica.it/cronaca/2021/11/07/news/dia_i_trent_anni_dell_fbi_italiana_che_ha_cambiato_la_lotta_alla_mafia-325378068/"
+            },
+            {
+                "name": "Movieplayer",
+                "link": "https://movieplayer.it/news/dia-1991-parlare-poco-apparire-mai-stasera-rai3-29-maggio-2021_105638/"
+            },
+            {
+                "name": "Cinema Italiano",
+                "link": "https://www.cinemaitaliano.info/news/65426/dia-1991-parlare-poco-apparire-mai-su-rai.html"
+            },
+            {
+                "name": "Cinefilos",
+                "link": "https://www.cinefilos.it/film-in-tv/dia-1991-parlare-poco-apparire-mai-in-prima-visione-assoluta-su-rai3-503590"
+            }
+        ],
+        "premi": [
+            "Premio Prova",
+            "Premio prova 2"
+        ]
     }
 ]

@@ -31,15 +31,50 @@ class WorksInside extends Component {
     }
 
     isCreditsNotVisible() {
-        return (!this.state.workInsideItem.direzione || this.state.workInsideItem.direzione=="") && 
-        (!this.state.workInsideItem.montaggio || this.state.workInsideItem.montaggio=="") && 
-        (!this.state.workInsideItem.scrittura || this.state.workInsideItem.scrittura=="") && 
-        (!this.state.workInsideItem.distribuzione || this.state.workInsideItem.distribuzione=="") && 
-        (!this.state.workInsideItem.produzione || this.state.workInsideItem.produzione=="") && 
-        (!this.state.workInsideItem.produzioneEsecutiva || this.state.workInsideItem.produzioneEsecutiva=="") && 
-        (!this.state.workInsideItem.interpreti || this.state.workInsideItem.interpreti=="") && 
-        (!this.state.workInsideItem.protagonisti || this.state.workInsideItem.protagonisti=="");
+        return (!this.state.workInsideItem.direzione || this.state.workInsideItem.direzione == "") &&
+            (!this.state.workInsideItem.montaggio || this.state.workInsideItem.montaggio == "") &&
+            (!this.state.workInsideItem.scrittura || this.state.workInsideItem.scrittura == "") &&
+            (!this.state.workInsideItem.distribuzione || this.state.workInsideItem.distribuzione == "") &&
+            (!this.state.workInsideItem.produzione || this.state.workInsideItem.produzione == "") &&
+            (!this.state.workInsideItem.produzioneEsecutiva || this.state.workInsideItem.produzioneEsecutiva == "") &&
+            (!this.state.workInsideItem.interpreti || this.state.workInsideItem.interpreti == "") &&
+            (!this.state.workInsideItem.protagonisti || this.state.workInsideItem.protagonisti == "");
     }
+    isArticoliVisible() {
+        let isValid = false;
+        isValid = this.state.workInsideItem.articoli && this.state.workInsideItem.articoli.length > 0
+        let count = 0;
+        if (isValid) {
+            this.state.workInsideItem.articoli.map(item => {
+                if (item && item.name != "" && item.link != "") {
+                    count = count + 1;
+                }
+            });
+            if (count == 0) {
+                isValid = false;
+            }
+        }
+        return isValid;
+    }
+
+    isPremiVisible() {
+        let isValid = false;
+        isValid = this.state.workInsideItem.premi && this.state.workInsideItem.premi.length > 0
+        let count = 0;
+        if (isValid) {
+            this.state.workInsideItem.premi.map(item => {
+                if (item && item != "") {
+                    count = count + 1;
+                }
+            });
+            if (count == 0) {
+                isValid = false;
+            }
+        }
+        return isValid;
+    }
+
+
 
     componentDidMount() {
         let workInside = Object(WorksInsideJson.filter(work => {
@@ -99,9 +134,9 @@ class WorksInside extends Component {
                                         </h5>
                                         <div className="description">
                                             <div className="inline-div"> Guarda <div className="inline-div"><h6>{this.state.workInsideItem.title}</h6></div> al link </div>
-                                            <div className="margin-bottom-top"><a className="btn btn-link transform-scale-h border-0 p-0" href={this.state.workInsideItem.linkSite}> {this.state.workInsideItem.title} </a> </div>
+                                            <div className="margin-bottom-top"><a className="btn btn-link transform-scale-h border-0 p-0" href={this.state.workInsideItem.linkSite} target={'_blank'}> {this.state.workInsideItem.title} </a> </div>
                                         </div>
-                                      {!this.isCreditsNotVisible() &&  <h3>Credits</h3> }
+                                        {!this.isCreditsNotVisible() && <h3>Credits</h3>}
                                         {this.state.workInsideItem.direzione && this.state.workInsideItem.direzione != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
@@ -175,9 +210,32 @@ class WorksInside extends Component {
                                     </div>
                                 </div>}
                                 <div className="row gutter-width-lg single-content" >
-                                    <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <h3 className='align-center'>Articoli e premi</h3>
+                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 articoli-margin-bottom ">
+                                       {this.isArticoliVisible() && <h3 className='align-center'>Articoli</h3> }
+                                        {this.state.workInsideItem.articoli && this.state.workInsideItem.articoli.map((item) => {
+                                            return (item && item.name && item.name != "" && item.link && item.link != "" && <div className="row gutter-width-lg single-content" >
+                                                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                                    <div className="description articoli-margin-bottom align-center">
+                                                        <div class="inline-div "><a className="btn btn-link transform-scale-h border-0 p-0" href={item.link} target={'_blank'}> {item.name} </a></div>
+                                                    </div>
+                                                </div>
+                                            </div>)
+                                        })}
 
+
+                                    </div>
+                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                      { this.isPremiVisible() &&  <h3 className='align-center'>Premi</h3> }
+                                        {this.state.workInsideItem.premi && this.state.workInsideItem.premi.map((item) => {
+                                            return (item && item != "" && <div className="row gutter-width-lg single-content" >
+                                                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                                    <div className="description articoli-margin-bottom align-center">
+                                                        <h6>{item}</h6>
+                                                    </div>
+                                                </div>
+                                            </div>)
+                                        })}
+                                      
                                     </div>
                                 </div>
 
