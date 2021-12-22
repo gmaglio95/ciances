@@ -30,6 +30,17 @@ class WorksInside extends Component {
         return element;
     }
 
+    isCreditsNotVisible() {
+        return (!this.state.workInsideItem.direzione || this.state.workInsideItem.direzione=="") && 
+        (!this.state.workInsideItem.montaggio || this.state.workInsideItem.montaggio=="") && 
+        (!this.state.workInsideItem.scrittura || this.state.workInsideItem.scrittura=="") && 
+        (!this.state.workInsideItem.distribuzione || this.state.workInsideItem.distribuzione=="") && 
+        (!this.state.workInsideItem.produzione || this.state.workInsideItem.produzione=="") && 
+        (!this.state.workInsideItem.produzioneEsecutiva || this.state.workInsideItem.produzioneEsecutiva=="") && 
+        (!this.state.workInsideItem.interpreti || this.state.workInsideItem.interpreti=="") && 
+        (!this.state.workInsideItem.protagonisti || this.state.workInsideItem.protagonisti=="");
+    }
+
     componentDidMount() {
         let workInside = Object(WorksInsideJson.filter(work => {
             return work.idGallery == this.props.match.params.id;
@@ -90,7 +101,7 @@ class WorksInside extends Component {
                                             <div className="inline-div"> Guarda <div className="inline-div"><h6>{this.state.workInsideItem.title}</h6></div> al link </div>
                                             <div className="margin-bottom-top"><a className="btn btn-link transform-scale-h border-0 p-0" href={this.state.workInsideItem.linkSite}> {this.state.workInsideItem.title} </a> </div>
                                         </div>
-                                        <h3>Credits</h3>
+                                      {!this.isCreditsNotVisible() &&  <h3>Credits</h3> }
                                         {this.state.workInsideItem.direzione && this.state.workInsideItem.direzione != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
@@ -128,10 +139,24 @@ class WorksInside extends Component {
                                                     </div>
                                                 </div>
                                             </div>}
-                                        {this.state.workInsideItem.direzione && this.state.workInsideItem.produzioneEsecutiva != "" && <div className="row gutter-width-lg single-content" >
+                                        {this.state.workInsideItem.produzioneEsecutiva && this.state.workInsideItem.produzioneEsecutiva != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
                                                     <div class="inline-div ">Produttori Esecutivi : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.produzioneEsecutiva}</h6></div>
+                                                </div>
+                                            </div>
+                                        </div>}
+                                        {this.state.workInsideItem.interpreti && this.state.workInsideItem.interpreti != "" && <div className="row gutter-width-lg single-content" >
+                                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                                <div className="description ">
+                                                    <div class="inline-div ">Interpreti : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.interpreti}</h6></div>
+                                                </div>
+                                            </div>
+                                        </div>}
+                                        {this.state.workInsideItem.protagonisti && this.state.workInsideItem.protagonisti != "" && <div className="row gutter-width-lg single-content" >
+                                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                                <div className="description ">
+                                                    <div class="inline-div ">Protagonisti : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.protagonisti}</h6></div>
                                                 </div>
                                             </div>
                                         </div>}
