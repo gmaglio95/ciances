@@ -59,10 +59,10 @@ class Gallery extends Component {
         });
 
         var imgLoad = new ImagesLoaded(gallery_items_name);
-
+        var zhis = this;
         imgLoad.on('progress', function (instance, image) {
             iso.layout();
-            iso.arrange({ filter: `.${GalleryMenuData[0].filter}` });
+            zhis.onFilterChange(GalleryMenuData[0].filter);
         });
         ;
     }
