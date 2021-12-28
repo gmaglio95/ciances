@@ -62,7 +62,9 @@ class Gallery extends Component {
 
         imgLoad.on('progress', function (instance, image) {
             iso.layout();
+            iso.arrange({ filter: `.${GalleryMenuData[0].filter}` });
         });
+        ;
     }
 
     render() {
