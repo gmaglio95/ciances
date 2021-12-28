@@ -103,7 +103,7 @@ class WorksInside extends Component {
             <Fragment>
                 <MetaTags>
                     <meta charSet="UTF-8" />
-                    <title>Works Inside | Oxer - Minimal Portfolio React Template</title>
+                    <title>{this.state.workInsideItem.title}</title>
 
                     <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -133,8 +133,19 @@ class WorksInside extends Component {
                                             {this.state.workInsideItem.subTitle}
                                         </h5>
                                         <div className="description">
-                                            <div className="inline-div"> Guarda <div className="inline-div"><h6>{this.state.workInsideItem.title}</h6></div> al link </div>
-                                            <div className="margin-bottom-top"><a className="btn btn-link transform-scale-h border-0 p-0" href={this.state.workInsideItem.linkSite} target={'_blank'}> {this.state.workInsideItem.title} </a> </div>
+                                            <div className="inline-div"> Guarda <div className="inline-div"><h6>{this.state.workInsideItem.title}</h6></div></div>
+                                            <div className="margin-bottom-top">
+
+                                                {this.state.workInsideItem.linkTrailer  && this.state.workInsideItem.linkTrailer!= "" && <div>
+                                                    <h6 class="inline-div ">Trailer : </h6>
+                                                    <a className="btn btn-link transform-scale-h border-0 p-0 inline-div filmlinks-margin-left" href={this.state.workInsideItem.linkTrailer} target={'_blank'}> {this.state.workInsideItem.title} </a>
+                                                </div>}
+                                                {this.state.workInsideItem.linkSite  && this.state.workInsideItem.linkSite!= "" &&  <div>
+                                                <h6 class="inline-div ">Film: </h6>
+                                                <a className="btn btn-link transform-scale-h border-0 p-0 inline-div filmlinks-margin-left" href={this.state.workInsideItem.linkSite} target={'_blank'}> {this.state.workInsideItem.title} </a>
+                                                </div> }
+                                            </div>
+
                                         </div>
                                         {!this.isCreditsNotVisible() && <h3>Credits</h3>}
                                         {this.state.workInsideItem.direzione && this.state.workInsideItem.direzione != "" && <div className="row gutter-width-lg single-content" >
@@ -211,7 +222,7 @@ class WorksInside extends Component {
                                 </div>}
                                 <div className="row gutter-width-lg single-content" >
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 articoli-margin-bottom ">
-                                       {this.isArticoliVisible() && <h3 className='align-center'>Articoli</h3> }
+                                        {this.isArticoliVisible() && <h3 className='align-center'>Articoli</h3>}
                                         {this.state.workInsideItem.articoli && this.state.workInsideItem.articoli.map((item) => {
                                             return (item && item.name && item.name != "" && item.link && item.link != "" && <div className="row gutter-width-lg single-content" >
                                                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -225,7 +236,7 @@ class WorksInside extends Component {
 
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                      { this.isPremiVisible() &&  <h3 className='align-center'>Premi</h3> }
+                                        {this.isPremiVisible() && <h3 className='align-center'>Premi</h3>}
                                         {this.state.workInsideItem.premi && this.state.workInsideItem.premi.map((item) => {
                                             return (item && item != "" && <div className="row gutter-width-lg single-content" >
                                                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -235,7 +246,7 @@ class WorksInside extends Component {
                                                 </div>
                                             </div>)
                                         })}
-                                      
+
                                     </div>
                                 </div>
 
