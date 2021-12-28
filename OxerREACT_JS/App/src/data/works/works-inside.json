@@ -4,6 +4,7 @@
         "title": "DIA 1991 - Parlare poco Apparire mai",
         "subTitle": "Produzione 15 May 2021",
         "linkSite": "https://www.raiplay.it/video/2021/10/DIA-1991---Parlare-poco-Apparire-mai-8ce4db30-1e88-45f4-b865-a494fade8ca1.html",
+        "linkTrailer": "",
         "direzione": "Gabriele Ciances e Leonardo Dalessandri",
         "montaggio": "Gabriele Ciances",
         "sinossi": "La lotta alle mafie nei trent'anni della DIA, l'FBI italiana nell'idea originaria di Giovanni Falcone, che il giudice progetta un anno prima della sua morte. La storia mai conosciuta degli investigatori che uniscono forze e competenze differenti. Sono giovani, vengono da Polizia, Carabinieri e Guardia di Finanza. Catturano latitanti, fanno centinaia di arresti, aggrediscono i patrimoni delle mafie restando sempre nell'ombra.",
@@ -11,8 +12,7 @@
         "distribuzione": "Rai Cinema",
         "produzione": "42° Parallelo e Rai Cinema",
         "produzioneEsecutiva": "Mauro Parissone e Laura Giglielmetti",
-        "description": "Descrizione",
-        "interpreti": "Interpreti",
+        "interpreti": "",
         "protagonisti": "",
         "articoli": [
             {
@@ -40,9 +40,69 @@
                 "link": "https://www.cinefilos.it/film-in-tv/dia-1991-parlare-poco-apparire-mai-in-prima-visione-assoluta-su-rai3-503590"
             }
         ],
+        "premi": []
+    },
+    {
+        "idGallery": "2",
+        "title": "#OPS L'Evento",
+        "subTitle": "Produzione Anno 2019",
+        "linkSite": "https://www.primevideo.com/detail/0K66M8Y02P7HI8AU68FQXTSJ13/ref=atv_dp_share_cu_r",
+        "linkTrailer": "https://www.youtube.com/watch?v=MEj602zBBy4",
+        "direzione": "Federico Allocca, Gabriele Ciances, Andrea Sestu",
+        "montaggio": "Matteo Santi, Andrea Cilento",
+        "sinossi": "Il documentario racconta la storia di Elisa Maino, la più giovane italiana a raggiungere il milione di follower su Instagram, diventata famosa in tutto il mondo grazie all'app di Musical-ly (ora TikTok). Il documentario racconta la sua infanzia, il suo successo e il tour promozionale del suo ilbro #OPS.",
+        "scrittura": "Federico Allocca, Gabriele Ciances, Andrea Sestu",
+        "distribuzione": "Notorious Pictures",
+        "produzione": "One Shot Agency",
+        "interpreti": "",
+        "protagonisti": "",
+        "articoli": [
+            {
+                "name": "Vanity Fair",
+                "link": "https://www.vanityfair.it/people/italia/2018/05/20/elisa-maino-musically-star-web-foto-vita-privata-gossip"
+            },
+            {
+                "name": "Corriere.it",
+                "link": "https://video.corriere.it/15-anni-4-milioni-follower-chi-elisa-maino-star-web-trailer-docufilm/5d45ff04-b6ae-11e8-83fc-d7dcaceaa02b?fbclid=IwAR3guQ1FzPp32h44qKcywBobo5-l9Xr0Sh8KefYJZ1mXBVCYvMeKhtX2UHo"
+            },
+            {
+                "name": "Wired",
+                "link": "https://www.wired.it/play/cinema/2018/09/16/trailer-ops-levento-film-tratto-dal-romanzo-elisa-maino/?fbclid=IwAR2b9hhhKYNGcdRD5slXVefXCeFI46UIuIyW-1I2vLKa7YEi9QDb29kgY3w&refresh_ce="
+            },
+            {
+                "name": "Mymovies",
+                "link": "https://www.mymovies.it/cinemanews/2018/158425/"
+            }
+        ],
+        "premi": []
+    },
+    {
+        "idGallery": "3",
+        "title": "Teresa",
+        "subTitle": "",
+        "linkSite": "",
+        "linkTrailer": "https://vimeo.com/377977170",
+        "direzione": "Gabriele Ciances",
+        "montaggio": "Gabriele Ciances",
+        "sinossi": "Un uomo di mezza età è solo e sente molto la mancanza della defunta moglie. La cura per la solitudine è tanto bizzarra quanto pratica. Il risultato della cura è struggente.",
+        "scrittura": "Gabriele Ciances",
+        "distribuzione": "Zen Movie",
+        "produzione": "Gabriele Ciances",
+        "interpreti": "",
+        "protagonisti": "",
+        "articoli": [],
         "premi": [
-            "Premio Prova",
-            "Premio prova 2"
+            "ODENSE INT. FILM FESTIVAL, Odense (DENMARK)",
+            "OSCAR® & EFA qualifying festival",
+            "CORTO DORICO, Ancona (ITALY)",
+            "SHORTS INT. FILM FESTIVAL - MAREMETRAGGIO, Trieste (ITALY)",
+            "SOCIAL WORLD FILM FESTIVAL, Vico Equense (ITALY)",
+            "SICILYFARM FILM FESTIVAL, Agrigento (ITALY)",
+            "LUCANIA FILM FESTIVAL, Pisticci (ITALY)​",
+            "LVIV INT. SHORT FILM FESTIVAL WIZ-ART, Lviv (UKRAINE)",
+            "VALDARNOCINEMA FILM FESTIVAL (ITALY)",
+            "CORTI A SUD (ITALY)",
+            "TRAME INDIPENDENTI INT. INDEPENDENT SHORT FILM FESTIVAL (ITALY)"
         ]
     }
 ]
