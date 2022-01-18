@@ -4,6 +4,7 @@
         "title": "DIA 1991 - Parlare poco Apparire mai",
         "category": "gallery-item-visible backstage",
         "link": "/works-inside",
+        "otherPage": false,
         "imgLink": "/assets/works/DIA1991/ManifestoDIA1991stampa.jpg",
         "button": "Look inside"
     },
@@ -12,6 +13,7 @@
         "title": "#OPS L'Evento",
         "category": "gallery-item-visible backstage",
         "link": "/works-inside",
+        "otherPage": false,
         "imgLink": "/assets/works/OPS/PosterOPS.png",
         "button": "Look inside"
     },
@@ -20,7 +22,98 @@
         "title": "Teresa",
         "category": "gallery-item-visible short",
         "link": "/works-inside",
+        "otherPage": false,
         "imgLink": "/assets/works/TERESA/Teresa_Poster.jpg",
+        "button": "Look inside"
+    },
+    {
+        "id": "4",
+        "title": "Istantanee 2020 - L'anno del Virus",
+        "category": "gallery-item-visible backstage",
+        "link": "/works-inside",
+        "otherPage": false,
+        "imgLink": "/assets/works/ISTANTANEE/LOCANDINE_STAMPA-4.png",
+        "button": "Look inside"
+    },
+    {
+        "id": "5",
+        "title": "Ossi di Seppia - Quello che ricordiamo",
+        "category": "gallery-item-visible feature",
+        "link": "/works-inside",
+        "otherPage": false,
+        "imgLink": "/assets/works/OSSI_SEPPIA_RICORDO/Locandina.png",
+        "button": "Look inside"
+    },
+    {
+        "id": "6",
+        "title": "Ossi di Seppia - Il rumore della memoria",
+        "category": "gallery-item-visible feature",
+        "link": "/works-inside",
+        "otherPage": false,
+        "imgLink": "/assets/works/OSSI_SEPPIA_RUMORE/Locandina.png",
+        "button": "Look inside"
+    },
+    {
+        "id": "7",
+        "title": "Anzi no - Mixup",
+        "category": "gallery-item-visible others",
+        "link": "https://www.youtube.com/watch?v=-nZKxiHxkwI",
+        "otherPage": true,
+        "imgLink": "/assets/works/MIXUP/Locandina.JPG",
+        "button": "Look inside"
+    },
+    {
+        "id": "8",
+        "title": "Balli da sola - Mose",
+        "category": "gallery-item-visible others",
+        "link": "https://www.youtube.com/watch?v=SNch-oSunWg",
+        "otherPage": true,
+        "imgLink": "/assets/works/MOSE/Locandina.png",
+        "button": "Look inside"
+    },
+    {
+        "id": "9",
+        "title": "Entre Amis - Campain",
+        "category": "gallery-item-visible others",
+        "link": "/works-inside",
+        "otherPage": true,
+        "imgLink": "/assets/works/CAMPAIN/Locandina.png",
+        "button": "Look inside"
+    },
+    {
+        "id": "10",
+        "title": "Gente di provincia - MSTR",
+        "category": "gallery-item-visible others",
+        "link": "/works-inside",
+        "otherPage": true,
+        "imgLink": "/assets/works/MSTR/Locandina.JPG",
+        "button": "Look inside"
+    },
+    {
+        "id": "11",
+        "title": "Il futuro adda venì - Mixup feat. Ntò, Enzo Dong",
+        "category": "gallery-item-visible others",
+        "link": "/works-inside",
+        "otherPage": true,
+        "imgLink": "/assets/works/ENZO_DONG/Locandina.png",
+        "button": "Look inside"
+    },
+    {
+        "id": "12",
+        "title": "STYLE - Arturo Muselli",
+        "category": "gallery-item-visible others",
+        "link": "/works-inside",
+        "otherPage": true,
+        "imgLink": "/assets/works/MUSELLI/Locandina.png",
+        "button": "Look inside"
+    },
+    {
+        "id": "13",
+        "title": "STYLE - MIKA",
+        "category": "gallery-item-visible others",
+        "link": "/works-inside",
+        "otherPage": true,
+        "imgLink": "/assets/works/MIKA/Locandina.png",
         "button": "Look inside"
     }
 ]

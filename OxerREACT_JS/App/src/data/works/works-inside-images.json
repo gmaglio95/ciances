@@ -34,5 +34,41 @@
     {
         "idGallery": "3",
         "imgLink": "/assets/works/TERESA/vlcsnap-2021-12-23-19h13m44s949.png"
+    },
+    {
+        "idGallery": "4",
+        "imgLink": "/assets/works/ISTANTANEE/Cattura_.JPG"
+    },
+    {
+        "idGallery": "4",
+        "imgLink": "/assets/works/ISTANTANEE/Cattura.JPG"
+    },
+    {
+        "idGallery": "4",
+        "imgLink": "/assets/works/ISTANTANEE/Cattura2.JPG"
+    },
+    {
+        "idGallery": "5",
+        "imgLink": "/assets/works/OSSI_SEPPIA_RICORDO/vlcsnap-2022-01-02-22h04m52s141.png"
+    },
+    {
+        "idGallery": "5",
+        "imgLink": "/assets/works/OSSI_SEPPIA_RICORDO/vlcsnap-2022-01-02-22h04m58s401.png"
+    },
+    {
+        "idGallery": "5",
+        "imgLink": "/assets/works/OSSI_SEPPIA_RICORDO/vlcsnap-2022-01-02-22h05m12s035.png"
+    },
+    {
+        "idGallery": "6",
+        "imgLink": "/assets/works/OSSI_SEPPIA_RUMORE/vlcsnap-2022-01-02-21h51m41s860.png"
+    },
+    {
+        "idGallery": "6",
+        "imgLink": "/assets/works/OSSI_SEPPIA_RUMORE/vlcsnap-2022-01-02-21h51m49s075.png"
+    },
+    {
+        "idGallery": "6",
+        "imgLink": "/assets/works/OSSI_SEPPIA_RUMORE/vlcsnap-2022-01-02-21h51m55s146.png"
     }
 ]

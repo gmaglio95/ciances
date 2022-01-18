@@ -104,5 +104,82 @@
             "CORTI A SUD (ITALY)",
             "TRAME INDIPENDENTI INT. INDEPENDENT SHORT FILM FESTIVAL (ITALY)"
         ]
+    },
+    {
+        "idGallery": "4",
+        "title": "Istantanee 2020 - L'anno del Virus",
+        "subTitle": "Anno 2020",
+        "linkSite": "https://www.raiplay.it/video/2020/12/Istantanee-2020-lanno-del-virus-7ea65ebd-c2f7-4c11-9a44-33f0574ab132.html",
+        "linkTrailer": "",
+        "montaggio": "Giulia Baciocchi e Gabriele Ciances",
+        "sinossi": "Come ricorderemo il 2020, l'anno dell'impensabile? Attraverso le voci narranti di 12 fotografi e delle loro foto simbolo, testimoni d'eccezione di quest'anno terribile segnato dalla pandemia. Un evento inaspettato che ha travolto le loro vite, e le nostre, cambiando tutto radicalmente: dalla vita quotidiana al metodo di lavoro usato per scattare le foto.",
+        "scrittura": "Gabriele Ciances",
+        "distribuzione": "RaiPlay",
+        "produzione": "42° Parallelo",
+        "produzioneEsecutiva": "Mauro Parissone e Laura Giglielmetti",
+        "autore": "Alessia Arcolaci",
+        "interpreti": "",
+        "protagonisti": "",
+        "articoli": [],
+        "premi": []
+    },
+    {
+        "idGallery": "5",
+        "title": "Ossi di Seppia - Quello che ricordiamo",
+        "subTitle": "Anno: 2021-2022",
+        "linkSite": "https://www.raiplay.it/programmi/ossidiseppia/ossi-di-seppia---quello-che-ricordiamo/puntate",
+        "linkTrailer": "",
+        "montaggio": "Gabriele Ciances e Giulia Baciocchi",
+        "sinossi": "'Ossi di Seppia. Quello che ricordiamo', la seconda stagione della serie non fiction sulla memoria, racconta momenti di svolta e personaggi degli ultimi trent'anni della storia del nostro Paese. Fatti cruciali, paradossalmente spesso dimenticati, che hanno segnato l'immaginario collettivo. Dall'epidemia di Aviaria all'assassinio di Sara Di Pietrantonio, passando per il calcio di 90° Minuto, la marcia dei 40mila, la tempesta Vaia, l'Aids, il naufragio della Costa Concordia, la morte di Marco Simoncelli, la caduta dell'eroe Michael Schumacher, Lucio Dalla, il caso Stamina, la rivoluzione di Cicciolina e molte altre vicende.",
+        "distribuzione": "RaiPlay",
+        "produzione": "42° Parallelo",
+        "produzioneEsecutiva": "Mauro Parissone e Laura Giglielmetti",
+        "autore": "Alessia Arcolaci",
+        "interpreti": "",
+        "protagonisti": "",
+        "articoli": [ {
+            "name": "Rai",
+            "link": "https://www.rai.it/ufficiostampa/assets/template/us-articolo.html?ssiPath=/articoli/2021/10/Ossi-di-Seppia-quello-che-ricordiamo-3ad709ad-6f75-4b76-9bbf-e155b4c7e3ea-ssi.html"
+        },
+        {
+            "name": "TV Fanpage",
+            "link": "https://tv.fanpage.it/ossi-di-seppia-quello-che-ricordiamo-torna-la-serie-emozionale-su-raiplay-dal-5-ottobre/"
+        },
+        {
+            "name": "Ansa",
+            "link": "https://www.ansa.it/sito/notizie/cultura/tv/2021/10/04/torna-ossi-di-seppia-viaggio-emozionale-nella-memoria_dda1c0b9-cb36-474a-8309-4eaf51ae5af6.html"
+        }],
+        "premi": []
+    },
+    {
+        "idGallery": "6",
+        "title": "Ossi di Seppia - Il rumore della memoria",
+        "subTitle": "Anno: 2020-2021",
+        "linkSite": "https://www.raiplay.it/programmi/ossidiseppia/ossi-di-seppia---quello-che-ricordiamo/puntate",
+        "linkTrailer": "",
+        "montaggio": "Gabriele Ciances e Giulia Baciocchi",
+        "sinossi": "‘Ossi di Seppia. Il rumore della memoria’, è una serie non fiction sulla memoria, racconta momenti di svolta e personaggi degli ultimi trent'anni della storia del nostro Paese. Fatti cruciali, paradossalmente spesso dimenticati, che hanno segnato l'immaginario collettivo.",
+        "distribuzione": "RaiPlay",
+        "produzione": "42° Parallelo",
+        "produzioneEsecutiva": "Mauro Parissone e Laura Giglielmetti",
+        "autore": "Alessia Arcolaci",
+        "capoProgetto":"Giorgia Furlan",
+        "interpreti": "",
+        "protagonisti": "",
+        "articoli": [
+            {
+                "name": "Rai",
+                "link": "https://www.rai.it/ufficiostampa/assets/template/us-articolo.html?ssiPath=/articoli/2021/04/In-esclusiva-su-RaiPlay-dal-26-aprile-Ossi-di-seppia-dd67726f-9f82-4989-9ba4-46e4eca76d88-ssi.html"
+            },
+            {
+                "name": "Rai",
+                "link": "https://www.rai.it/ufficiostampa/assets/template/us-articolo.html?ssiPath=/articoli/2021/07/Il-disastro-di-Seveso-a-Ossi-di-seppia-aef7074d-38c9-4ebe-b9cd-e1d363b5d53f-ssi.html"
+            },
+            {
+                "name": "Affari Italiani",
+                "link": "https://www.affaritaliani.it/entertainment/ossi-di-seppia-il-rumore-della-memoria-la-prima-serie-tv-non-fiction-715683.html"
+            }
+        ],
+        "premi": []
     }
 ]
