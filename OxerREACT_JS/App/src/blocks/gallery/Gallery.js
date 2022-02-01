@@ -104,7 +104,7 @@ class Gallery extends Component {
                         {GalleryItemsData && GalleryItemsData.map((item, key) => {
                             return (
                                 
-                                <a key={key} title={item.title} className={"gallery-item active " + item.category} target={item.otherPage ? '_blank' : null} href={process.env.PUBLIC_URL + item.link + "/" + item.id}> 
+                                <a key={key} title={item.title} className={"gallery-item active " + item.category} target={item.otherPage ? '_blank' : null} href={item.otherPage ? item.link : process.env.PUBLIC_URL + item.link + "/" + item.id}> 
                                     <div className="img object-fit">
                                         <div className="object-fit-contain">
                                             <img src={process.env.PUBLIC_URL + item.imgLink} alt={process.env.PUBLIC_URL  + item.title} /> 
