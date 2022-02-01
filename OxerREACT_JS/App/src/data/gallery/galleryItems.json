@@ -75,7 +75,7 @@
         "id": "9",
         "title": "Entre Amis - Campain",
         "category": "gallery-item-visible others",
-        "link": "/works-inside",
+        "link": "https://vimeo.com/343231219",
         "otherPage": true,
         "imgLink": "/assets/works/CAMPAIN/Locandina.png",
         "button": "Look inside"
@@ -84,7 +84,7 @@
         "id": "10",
         "title": "Gente di provincia - MSTR",
         "category": "gallery-item-visible others",
-        "link": "/works-inside",
+        "link": "https://www.youtube.com/watch?v=55RCi3bGGuI",
         "otherPage": true,
         "imgLink": "/assets/works/MSTR/Locandina.JPG",
         "button": "Look inside"
@@ -93,7 +93,7 @@
         "id": "11",
         "title": "Il futuro adda venì - Mixup feat. Ntò, Enzo Dong",
         "category": "gallery-item-visible others",
-        "link": "/works-inside",
+        "link": "https://www.youtube.com/watch?v=St0YcyuCCx0",
         "otherPage": true,
         "imgLink": "/assets/works/ENZO_DONG/Locandina.png",
         "button": "Look inside"
@@ -102,7 +102,7 @@
         "id": "12",
         "title": "STYLE - Arturo Muselli",
         "category": "gallery-item-visible others",
-        "link": "/works-inside",
+        "link": "https://vimeo.com/345892519",
         "otherPage": true,
         "imgLink": "/assets/works/MUSELLI/Locandina.png",
         "button": "Look inside"
@@ -111,7 +111,7 @@
         "id": "13",
         "title": "STYLE - MIKA",
         "category": "gallery-item-visible others",
-        "link": "/works-inside",
+        "link": "https://vimeo.com/373860999",
         "otherPage": true,
         "imgLink": "/assets/works/MIKA/Locandina.png",
         "button": "Look inside"
