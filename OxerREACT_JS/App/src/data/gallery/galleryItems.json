@@ -115,5 +115,14 @@
         "otherPage": true,
         "imgLink": "/assets/works/MIKA/Locandina.png",
         "button": "Look inside"
+    },
+    {
+        "id": "14",
+        "title": "Petrosyan",
+        "category": "gallery-item-visible feature",
+        "link": "/works-inside",
+        "otherPage": false,
+        "imgLink": "/assets/works/PETROSYAN/Locandina.png",
+        "button": "Look inside"
     }
 ]

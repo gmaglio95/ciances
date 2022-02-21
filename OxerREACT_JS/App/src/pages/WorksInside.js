@@ -132,7 +132,7 @@ class WorksInside extends Component {
                                         <h5 className="small">
                                             {this.state.workInsideItem.subTitle}
                                         </h5>
-                                        <div className="description">
+                                        {(this.state.workInsideItem.linkSite || this.state.workInsideItem.linkTrailer) && <div className="description">
                                             <div className="inline-div"> Guarda <div className="inline-div"><h6>{this.state.workInsideItem.title}</h6></div></div>
                                             <div className="margin-bottom-top">
 
@@ -146,7 +146,7 @@ class WorksInside extends Component {
                                                 </div>}
                                             </div>
 
-                                        </div>
+                                        </div>}
                                         {!this.isCreditsNotVisible() && <h3>Credits</h3>}
                                         {this.state.workInsideItem.direzione && this.state.workInsideItem.direzione != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">

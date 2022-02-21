@@ -137,18 +137,20 @@
         "autore": "Alessia Arcolaci",
         "interpreti": "",
         "protagonisti": "",
-        "articoli": [ {
-            "name": "Rai",
-            "link": "https://www.rai.it/ufficiostampa/assets/template/us-articolo.html?ssiPath=/articoli/2021/10/Ossi-di-Seppia-quello-che-ricordiamo-3ad709ad-6f75-4b76-9bbf-e155b4c7e3ea-ssi.html"
-        },
-        {
-            "name": "TV Fanpage",
-            "link": "https://tv.fanpage.it/ossi-di-seppia-quello-che-ricordiamo-torna-la-serie-emozionale-su-raiplay-dal-5-ottobre/"
-        },
-        {
-            "name": "Ansa",
-            "link": "https://www.ansa.it/sito/notizie/cultura/tv/2021/10/04/torna-ossi-di-seppia-viaggio-emozionale-nella-memoria_dda1c0b9-cb36-474a-8309-4eaf51ae5af6.html"
-        }],
+        "articoli": [
+            {
+                "name": "Rai",
+                "link": "https://www.rai.it/ufficiostampa/assets/template/us-articolo.html?ssiPath=/articoli/2021/10/Ossi-di-Seppia-quello-che-ricordiamo-3ad709ad-6f75-4b76-9bbf-e155b4c7e3ea-ssi.html"
+            },
+            {
+                "name": "TV Fanpage",
+                "link": "https://tv.fanpage.it/ossi-di-seppia-quello-che-ricordiamo-torna-la-serie-emozionale-su-raiplay-dal-5-ottobre/"
+            },
+            {
+                "name": "Ansa",
+                "link": "https://www.ansa.it/sito/notizie/cultura/tv/2021/10/04/torna-ossi-di-seppia-viaggio-emozionale-nella-memoria_dda1c0b9-cb36-474a-8309-4eaf51ae5af6.html"
+            }
+        ],
         "premi": []
     },
     {
@@ -163,7 +165,7 @@
         "produzione": "42° Parallelo",
         "produzioneEsecutiva": "Mauro Parissone e Laura Giglielmetti",
         "autore": "Alessia Arcolaci",
-        "capoProgetto":"Giorgia Furlan",
+        "capoProgetto": "Giorgia Furlan",
         "interpreti": "",
         "protagonisti": "",
         "articoli": [
@@ -180,6 +182,26 @@
                 "link": "https://www.affaritaliani.it/entertainment/ossi-di-seppia-il-rumore-della-memoria-la-prima-serie-tv-non-fiction-715683.html"
             }
         ],
+        "premi": []
+    },
+    {
+        "idGallery": "14",
+        "title": "Petrosyan",
+        "subTitle": "Anno: In produzione",
+        "linkSite": "",
+        "linkTrailer": "",
+        "direzione": "Gabriele Ciances, Federico Allocca, Andrea Sestu",
+        "montaggio": "Christian Marsiglia e Federico Allocca",
+        "scrittura": "Gabriele Ciances, Federico Allocca, Andrea Sestu",
+        "sinossi": "Documentario che ripercorre la vita del campione del mondo di kickboxing Giorgio Petrosyan.",
+        "distribuzione": "",
+        "produzione": "Anemone Film",
+        "produzioneEsecutiva": "",
+        "autore": "",
+        "capoProgetto": "",
+        "interpreti": "",
+        "protagonisti": "",
+        "articoli": [],
         "premi": []
     }
 ]
