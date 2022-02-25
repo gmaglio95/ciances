@@ -57,7 +57,7 @@ const UserInterface = () => {
                 <div className="wrapper d-flex justify-content-between">
                     <div className="align-self-center">
                         <a title="Logo" className="logo primary-logo transform-scale-h" href="/">
-                            <img src="assets/img/logo/logo.svg" alt="Logo" />
+                            <img src="assets/img/logo/logo.png" alt="Logo" />
                         </a>
                     </div>
                 </div>

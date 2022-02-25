@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacts = () => {
     return (
-        <section id="contact" className="block spacer p-top-xl">
+        <section id="contact" className="block spacer p-top-lg">
             <div className="wrapper">
                 <div className="text-center">
                     {/* <h3 className="mb-0 after">Like my work? Want to have a good quality photographies? <br/>You can contact me now!

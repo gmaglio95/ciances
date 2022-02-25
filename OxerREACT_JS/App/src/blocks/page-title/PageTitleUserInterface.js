@@ -5,8 +5,7 @@ const PageTitleUserInterface = () => {
         <section id="page-title">
             <div className="wrapper">
                 <div className="title position-relative">
-                    <h1>UI<span className="dot">.</span>
-                    </h1>
+                    <h1>UI.</h1>
 
                     <div className="title-clone">Oxer.</div>
                 </div>

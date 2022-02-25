@@ -10,13 +10,12 @@ const CustomizingHeadings = () => {
             <div className="bd-example">
                 <h1 className="small">Fancy display <span className="line">heading</span>
                 </h1>
-                <h1 className="small">Fancy display heading<span className="dot">.</span>
-                </h1>
+                <h1 className="small">Fancy display heading.</h1>
             </div>
 
             <PrismCode
                 code={'<h1 className="small">Fancy display <span className="line">heading</span></h1>\n' +
-                '<h1 className="small">Fancy display heading<span className="dot">.</span></h1>\n'}
+                '<h1 className="small">Fancy display heading.</h1>\n'}
                 language="html"
                 plugins={["line-numbers"]}
             />

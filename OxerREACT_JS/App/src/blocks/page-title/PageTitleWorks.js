@@ -5,7 +5,7 @@ const PageTitleWorks = () => {
         <section id="page-title">
             <div className="wrapper">
                 <div className="title position-relative">
-                    <h1>Works<span className="dot">.</span></h1>
+                    <h1>Works.</h1>
 
                     <div className="title-clone">Works.</div>
                 </div>

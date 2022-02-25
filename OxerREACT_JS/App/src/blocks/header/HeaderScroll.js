@@ -8,13 +8,8 @@ const HeaderScroll = () => {
         <header id="header" className="site-header">
             <div className="wrapper d-flex justify-content-between">
                 <div className="align-self-center">
-                    <Logo image={ "/assets/img/logo/logo.svg" } />
+                    <Logo image={ "/assets/img/logo/logo.png" } />
                 </div>
-
-                {/* <SearchModal /> */}
-
-                <MenuScroll />
-
             </div>
         </header>
     );

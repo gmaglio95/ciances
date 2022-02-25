@@ -4,11 +4,9 @@ import Gallery from '../gallery/Gallery';
 
 const Works = () => {
     return (
-        <section id="my-works" className="block spacer m-top-xl">
+        <section id="my-works" className="block spacer m-top-lg">
             <div className="wrapper-works">
-                <h2>
-                    My <span className="line">works</span>
-                </h2>
+                <h2> My works </h2>
             </div>
             {/* <NetSlider
 				className='netslider_title_card'

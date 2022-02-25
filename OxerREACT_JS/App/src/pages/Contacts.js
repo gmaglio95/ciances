@@ -84,8 +84,8 @@ const Contacts = () => {
                             </div>
                         </div>
 
-                        <div className="block spacer p-top-xl">
-                            <h2>Fill up a <span className="line">form</span></h2>
+                        <div className="block spacer p-top-lg">
+                            <h2>Fill up a form</h2>
 
                             <ContactForm />
                         </div>
