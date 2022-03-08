@@ -3,25 +3,21 @@ import React from 'react';
 const AboutContent = () => {
     return (
         <div id="about" className="block spacer m-top-lg wrapper-about">
-            <h2>Gabriele Ciances -  Film Director</h2>
+            <div id="bio"><h4>BIO</h4></div>
 
-            <div className="row bg-half-ring-left gutter-width-lg about-padding-left">
-                <div className="col align-self-top pl-0">
-                    <div className="img object-fit">
-                        <div className="object-fit-cover">
-                            <img src={process.env.PUBLIC_URL + "/assets/img/profilo.png"} alt="Gabriele Ciances" className="img-fluid" />
-                        </div>
-                    </div>
-                </div>
+            <div className="row gutter-width-lg about-padding-left">
 
-                <div className="col align-self-center description">
+                <div className="col-9 align-self-center description text-align-center">
 
-                    <p>Regista e sceneggiatore, ha iniziato a lavorare come assistente alla regia su svariati set di spot web e televisivi. Ha diretto un corto, diversi spot per il web, videoclip di noti artisti della scena musicale italiana e ha collaborato con aziende e agenzie come Bianca Film, Il Fatto Quotidiano, Huawei Honor, Vodafone, Rizzoli Editore, KIKO Milano, BluKids, OVS, Alfa Romeo, STYLE Magazine, NeroGiardini.
-                        Ha lavorato come assistente di Fabio Mollo, partecipando ad alcuni dei suoi progetti tra cui il film Il padre d'Italia (2017) con Luca Marinelli e Isabella Ragonese.</p>
+                <p>Gabriele Ciances (1993) Regista e Filmmaker</p>
+                <p>Sono nato a Messina, dove ho avuto modo  di coltivare la mia passione per il cinema sin dall'adolescenza.</p>
+                <p>Nel 2013 mi trasferisco a Milano per lavorare nel settore. Dopo diverse esperienze da assistente alla regia mi dedico del tutto al filmmaking realizzando videoclip musicali e spot per noti brand italiani. Dal 2019 vivo e lavoro a Roma.</p>
+                <p>Nel 2018 scrivo e dirigo in co-regia il mio primo documentario #OPS - L'evento, distribuito al cinema da Notorious Pictures.</p>
+                <p>Nel 2019 scrivo e dirigo il mio primo cortometraggio Teresa, distribuito da Zen Movie.</p>
+                <p>Dal 2020 ad oggi lavoro a Ossi di Seppia, docuserie distribuita su RaiPlay.</p>
+                <p>Nel 2020 realizzo Istantanee - L'anno del virus, documentario distribuito su RaiPlay.</p>
+                <p>Nel 2021 dirigo DIA 1991 - Parlare poco Apparire mai, documentario prodotto da RaiCinema, distribuito su Rai3.</p>
 
-                    <p>Nel 2018 insieme a Federico Allocca e Andrea Sestu, firma la scrittura e la co-regia del documentario #OPS - L'Evento, distribuito al cinema da Notorious Pictures.
-
-                    </p>
                 </div>
             </div>
         </div>

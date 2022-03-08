@@ -79,7 +79,7 @@ class Gallery extends Component {
                                 <li>
                                     <a href="#my-works"
                                         title={item.title}
-                                        className={"btn btn-link transform-scale-h click" + (key === this.state.selected ? ' active' : '')}
+                                        className={"btn btn-link transform-scale-h click work-text-size" + (key === this.state.selected ? ' active' : '')}
                                         data-filter={item.filter}
                                         onClick={(event) => {
                                             this.onFilterChange(item.filter);
@@ -111,7 +111,7 @@ class Gallery extends Component {
                                         </div>
                                     </div>
 
-                                    <div className="gallery-hover">
+                                    {/* <div className="gallery-hover">
                                         <div className="gallery-hover-wrapper">
                                             <h3>{item.title}</h3>
 
@@ -120,7 +120,7 @@ class Gallery extends Component {
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </a>
                             );
                         })}

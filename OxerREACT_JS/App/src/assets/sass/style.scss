@@ -293,6 +293,32 @@ body {
     padding-bottom:0;
 }
 
+.logo-margin-bottom {
+    margin-bottom:5px;
+}
+
+.logo-fixed{
+    position: fixed;
+    z-index: 999;
+}
+
+.work-text-size {
+    font-size: 20px!important;
+}
+
+#bio {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.zhis {
+    padding-left:10rem!important;
+}
+
 /*=============================
 // #3.1 Font
 =============================*/

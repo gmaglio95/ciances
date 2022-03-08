@@ -110,7 +110,7 @@ class ContactForm extends Component {
                                size="30"
                                maxLength="245"
                                required="required"
-                               placeholder="Name *" />
+                               placeholder="Nome *" />
                     </span>
 
                     <span className="gutter-width">
@@ -121,7 +121,7 @@ class ContactForm extends Component {
                                size="30"
                                maxLength="100"
                                required="required"
-                               placeholder="Email/Phone no. *" />
+                               placeholder="Email/Cellulare *" />
                     </span>
                 </p>
 
@@ -133,7 +133,7 @@ class ContactForm extends Component {
                               onChange={ this.handleInputChange }
                               maxLength="65525"
                               required="required"
-                              placeholder="Message *"></textarea>
+                              placeholder="Messaggio *"></textarea>
                 </p>
 
                 <p>

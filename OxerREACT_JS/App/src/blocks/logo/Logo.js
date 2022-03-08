@@ -3,12 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Logo = ( { image } ) => {
     return (
-        <div className="logo">
-            <Link to={ process.env.PUBLIC_URL + "/" }>
-                <img
-                    src={ process.env.PUBLIC_URL + image }
-                    alt="Logo"
-                    className="logo primary-logo transform-scale-h" />
+        <div className="logo logo-fixed">
+            <Link to={ process.env.PUBLIC_URL + "/" }><div class="logo-margin-bottom"><h5>Gabriele Ciances</h5></div><h6>REGISTA</h6>
             </Link>
         </div>
     );

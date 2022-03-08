@@ -34,17 +34,11 @@ const Contacts = () => {
             <Header/>
 
             <main id="main" className="site-main">
-                <PageTitleContacts />
 
-                <section id="page-content" className="block spacer p-top-xl">
+                <section id="page-content">
                     <div className="wrapper">
                         <div id="contacts" className="block">
                             <div className="row">
-                                <div className="col-xl-4 col-lg-4 col-md-4 col-12">
-                                    <h2>Contact Me !</h2>
-
-                                    {/* <p className="mt-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p> */}
-                                </div>
 
                                 <div className="col-xl-8 col-lg-8 col-md-8 col-12">
                                     {/* <div className="list-group list-group-horizontal-sm">
@@ -85,7 +79,7 @@ const Contacts = () => {
                         </div>
 
                         <div className="block spacer p-top-lg">
-                            <h2>Fill up a form</h2>
+                            <h4>Scrivimi</h4>
 
                             <ContactForm />
                         </div>

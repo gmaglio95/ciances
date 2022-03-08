@@ -1,22 +1,22 @@
 [
     {
         "id": "1",
-        "title": "Backstage",
-        "filter": "backstage"
+        "title": "Docufilm",
+        "filter": "docufilm"
     },
     {
         "id": "2",
-        "title": "Feature Films",
-        "filter": "feature"
+        "title": "Docuserie",
+        "filter": "docuserie"
     },
     {
         "id": "3",
-        "title": "Short Films",
-        "filter": "short"
+        "title": "Cortometraggio",
+        "filter": "cortometraggio"
     },
     {
         "id": "4",
-        "title": "Others",
-        "filter": "others"
+        "title": "Altro",
+        "filter": "altro"
     }
 ]

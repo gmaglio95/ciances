@@ -126,22 +126,21 @@ class WorksInside extends Component {
 
 
                                 <div className="row gutter-width-lg single-content" >
-                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 zhis">
 
                                         <h3>{this.state.workInsideItem.title}</h3>
                                         <h5 className="small">
                                             {this.state.workInsideItem.subTitle}
                                         </h5>
                                         {(this.state.workInsideItem.linkSite || this.state.workInsideItem.linkTrailer) && <div className="description">
-                                            <div className="inline-div"> Guarda <div className="inline-div"><h6>{this.state.workInsideItem.title}</h6></div></div>
                                             <div className="margin-bottom-top">
 
                                                 {this.state.workInsideItem.linkTrailer && this.state.workInsideItem.linkTrailer != "" && <div>
-                                                    <h6 class="inline-div ">Trailer : </h6>
+                                                    <h6 class="inline-div ">Guarda Trailer: </h6>
                                                     <a className="btn btn-link transform-scale-h border-0 p-0 inline-div filmlinks-margin-left" href={this.state.workInsideItem.linkTrailer} target={'_blank'}> {this.state.workInsideItem.title} </a>
                                                 </div>}
                                                 {this.state.workInsideItem.linkSite && this.state.workInsideItem.linkSite != "" && <div>
-                                                    <h6 class="inline-div ">Film: </h6>
+                                                    <h6 class="inline-div ">Guarda Film: </h6>
                                                     <a className="btn btn-link transform-scale-h border-0 p-0 inline-div filmlinks-margin-left" href={this.state.workInsideItem.linkSite} target={'_blank'}> {this.state.workInsideItem.title} </a>
                                                 </div>}
                                             </div>
@@ -151,7 +150,7 @@ class WorksInside extends Component {
                                         {this.state.workInsideItem.direzione && this.state.workInsideItem.direzione != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
-                                                    <div class="inline-div ">Diretto Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.direzione}</h6></div>
+                                                    <div class="inline-div ">Diretto da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.direzione}</h6></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -159,21 +158,21 @@ class WorksInside extends Component {
                                         {this.state.workInsideItem.montaggio && this.state.workInsideItem.montaggio != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description">
-                                                    <div class="inline-div ">Montato Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.montaggio}</h6></div>
+                                                    <div class="inline-div ">Montato da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.montaggio}</h6></div>
                                                 </div>
                                             </div>
                                         </div>}
                                         {this.state.workInsideItem.scrittura && this.state.workInsideItem.scrittura != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
-                                                    <div class="inline-div ">Scritto Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.scrittura}</h6></div>
+                                                    <div class="inline-div ">Scritto da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.scrittura}</h6></div>
                                                 </div>
                                             </div>
                                         </div>}
                                         {this.state.workInsideItem.distribuzione && this.state.workInsideItem.distribuzione != "" && <div className="row gutter-width-lg single-content" >
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div className="description ">
-                                                    <div class="inline-div ">Distribuito Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.distribuzione}</h6></div>
+                                                    <div class="inline-div ">Distribuito da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.distribuzione}</h6></div>
                                                 </div>
                                             </div>
                                         </div>}
@@ -181,7 +180,7 @@ class WorksInside extends Component {
                                             <div className="row gutter-width-lg single-content" >
                                                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                     <div className="description ">
-                                                        <div class="inline-div ">Prodotto Da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.produzione}</h6></div>
+                                                        <div class="inline-div ">Prodotto da : </div>  <div class="inline-div "> <h6>{this.state.workInsideItem.produzione}</h6></div>
                                                     </div>
                                                 </div>
                                             </div>}
