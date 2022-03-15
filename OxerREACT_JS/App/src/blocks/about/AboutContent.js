@@ -8,7 +8,7 @@ const AboutContent = () => {
             <div className="row gutter-width-lg">
                 <div className="col-lg-1"></div>
                 <div className="col-lg-5 align-center about-image">
-                    <img src={process.env.PUBLIC_URL + "assets/img/about-image.jpg"} alt={process.env.PUBLIC_URL + "assets/img/about-image.jpg"} />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/about-image.jpg"} alt={process.env.PUBLIC_URL + "assets/img/about-image.jpg"} />
                 </div>
                 <div className="col-lg-5 align-self-center description text-align-center">
 
