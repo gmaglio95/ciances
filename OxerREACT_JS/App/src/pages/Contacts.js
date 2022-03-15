@@ -68,7 +68,7 @@ const Contacts = () => {
                                     </div> */}
 
                                     <div className="list-group list-group-horizontal-sm mt-0">
-                                        <div className="list-group-item mb-0 pb-0">
+                                        <div className="mb-0 pb-0">
                                             <h4>Email</h4>
 
                                             <p><a title="info@gabrieleciances.com" href="mailto:info@gabrieleciances.com">info@gabrieleciances.com</a></p>

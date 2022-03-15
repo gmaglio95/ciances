@@ -126,7 +126,7 @@ class WorksInside extends Component {
 
 
                                 <div className="row gutter-width-lg single-content" >
-                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 zhis">
+                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
 
                                         <h3>{this.state.workInsideItem.title}</h3>
                                         <h5 className="small">

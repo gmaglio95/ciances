@@ -2,12 +2,15 @@ import React from 'react';
 
 const AboutContent = () => {
     return (
-        <div id="about" className="block spacer m-top-lg wrapper-about">
+        <div id="about" className="block spacer m-top-lg">
             <div id="bio"><h4>BIO</h4></div>
 
-            <div className="row gutter-width-lg about-padding-left">
-
-                <div className="col-9 align-self-center description text-align-center">
+            <div className="row gutter-width-lg">
+                <div className="col-lg-1"></div>
+                <div className="col-lg-5 align-center about-image">
+                    <img src={process.env.PUBLIC_URL + "assets/img/about-image.jpg"} alt={process.env.PUBLIC_URL + "assets/img/about-image.jpg"} />
+                </div>
+                <div className="col-lg-5 align-self-center description text-align-center">
 
                 <p>Gabriele Ciances (1993) Regista e Filmmaker</p>
                 <p>Sono nato a Messina, dove ho avuto modo  di coltivare la mia passione per il cinema sin dall'adolescenza.</p>

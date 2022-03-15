@@ -254,35 +254,11 @@ body {
 .wrapper-works {
     text-align: center;
 }
-.wrapper-about {
-    max-width: $wrapper_max_w;
-    
-    margin: auto;
-    
-    @media #{$media_xxl} {
-        padding-left: 3.75rem;
-        padding-right: 3.75rem;
-    }
-    
-    @media #{$media_xl} {
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
-    }
-    
-    @media #{$media_sm} {
-        padding-left: 1.25rem;
-        padding-right: 1.25rem;
-    }
-}
 .articoli-margin-bottom  {
     margin-bottom:2%
 }
 .filmlinks-margin-left {
     margin-left: 3%;
-}
-
-.about-padding-left {
-    padding-left:0;
 }
 
 .site-main-home {
@@ -315,8 +291,15 @@ body {
     text-align: center;
 }
 
-.zhis {
-    padding-left:10rem!important;
+#my-works{
+    margin-top: 2.5rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .about-image{
+        margin-bottom: 40px;
+        padding: 0!important;
+    }
 }
 
 /*=============================
