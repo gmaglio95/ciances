@@ -50,10 +50,19 @@ class Gallery extends Component {
         var gallery_items_name = this.grid;
         var gallery_item_name = '.gallery-item';
 
-        fetch(process.env.PUBLIC_URL + "/assets/content/gallery/galleryMenu.json").then(response => {
+        let myHeaders = new Headers();
+        myHeaders.append('pragma', 'no-cache');
+        myHeaders.append('cache-control', 'no-cache');
+        
+        let myInit = {
+          method: 'GET',
+          headers: myHeaders,
+        };
+
+        fetch(process.env.PUBLIC_URL + "/assets/content/gallery/galleryMenu.json",myInit).then(response => {
             return response.json();
         }).then(menu => {
-            fetch(process.env.PUBLIC_URL + "/assets/content/gallery/galleryItems.json").then(response => {
+            fetch(process.env.PUBLIC_URL + "/assets/content/gallery/galleryItems.json",myInit).then(response => {
                 return response.json();
             }).then(items => {
                 this.setState({ list: menu, works: items});

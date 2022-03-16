@@ -10,7 +10,16 @@ class FooterMenu extends Component {
     }
 
     componentDidMount() {
-        fetch(process.env.PUBLIC_URL + "/assets/content/footer/footerMenu.json").then(response => {
+        let myHeaders = new Headers();
+        myHeaders.append('pragma', 'no-cache');
+        myHeaders.append('cache-control', 'no-cache');
+        
+        let myInit = {
+          method: 'GET',
+          headers: myHeaders,
+        };
+
+        fetch(process.env.PUBLIC_URL + "/assets/content/footer/footerMenu.json",myInit).then(response => {
             return response.json();
         }).then(data => {
             this.setState({ dataFooterMenu: data });

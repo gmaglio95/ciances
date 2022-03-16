@@ -1,6 +1,8 @@
 [
     {
         "idGallery": "1",
+        "autore": "",
+        "capoProgetto": "",
         "title": "DIA 1991 - Parlare poco Apparire mai",
         "subTitle": "Produzione 15 May 2021",
         "linkSite": "https://www.raiplay.it/video/2021/10/DIA-1991---Parlare-poco-Apparire-mai-8ce4db30-1e88-45f4-b865-a494fade8ca1.html",
@@ -44,6 +46,9 @@
     },
     {
         "idGallery": "2",
+        "autore": "",
+        "capoProgetto": "",
+        "produzioneEsecutiva": "",
         "title": "#OPS L'Evento",
         "subTitle": "Produzione Anno 2019",
         "linkSite": "https://www.primevideo.com/detail/0K66M8Y02P7HI8AU68FQXTSJ13/ref=atv_dp_share_cu_r",
@@ -79,6 +84,9 @@
     {
         "idGallery": "3",
         "title": "Teresa",
+        "autore": "",
+        "capoProgetto": "",
+        "produzioneEsecutiva": "",
         "subTitle": "",
         "linkSite": "",
         "linkTrailer": "https://vimeo.com/377977170",
@@ -109,6 +117,8 @@
         "idGallery": "4",
         "title": "Istantanee 2020 - L'anno del Virus",
         "subTitle": "Anno 2020",
+        "capoProgetto": "",
+        "direzione": "",
         "linkSite": "https://www.raiplay.it/video/2020/12/Istantanee-2020-lanno-del-virus-7ea65ebd-c2f7-4c11-9a44-33f0574ab132.html",
         "linkTrailer": "",
         "montaggio": "Giulia Baciocchi e Gabriele Ciances",
@@ -127,6 +137,9 @@
         "idGallery": "5",
         "title": "Ossi di Seppia - Quello che ricordiamo",
         "subTitle": "Anno: 2021-2022",
+        "capoProgetto": "",
+        "direzione": "",
+        "scrittura": "",
         "linkSite": "https://www.raiplay.it/programmi/ossidiseppia/ossi-di-seppia---quello-che-ricordiamo/puntate",
         "linkTrailer": "",
         "montaggio": "Gabriele Ciances e Giulia Baciocchi",
@@ -157,6 +170,8 @@
         "idGallery": "6",
         "title": "Ossi di Seppia - Il rumore della memoria",
         "subTitle": "Anno: 2020-2021",
+        "direzione": "",
+        "scrittura": "",
         "linkSite": "https://www.raiplay.it/programmi/ossidiseppia/ossi-di-seppia---quello-che-ricordiamo/puntate",
         "linkTrailer": "",
         "montaggio": "Gabriele Ciances e Giulia Baciocchi",
@@ -201,7 +216,15 @@
         "capoProgetto": "",
         "interpreti": "",
         "protagonisti": "",
-        "articoli": [],
-        "premi": []
+        "articoli": [
+            {
+                "name": "",
+                "link": ""
+            }
+        ],
+        "premi": [
+            "",
+            ""
+        ]
     }
 ]

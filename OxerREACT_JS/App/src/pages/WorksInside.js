@@ -74,8 +74,15 @@ class WorksInside extends Component {
 
 
     componentDidMount() {
-
-        fetch(process.env.PUBLIC_URL + "/assets/content/works/works-inside.json").then(response => {
+        let myHeaders = new Headers();
+        myHeaders.append('pragma', 'no-cache');
+        myHeaders.append('cache-control', 'no-cache');
+        
+        let myInit = {
+          method: 'GET',
+          headers: myHeaders,
+        };
+        fetch(process.env.PUBLIC_URL + "/assets/content/works/works-inside.json",myInit).then(response => {
             return response.json();
         }).then(data => {
             console.log(data);
@@ -89,7 +96,7 @@ class WorksInside extends Component {
             }
         });
 
-        fetch(process.env.PUBLIC_URL + "/assets/content/works/works-inside-images.json").then(response => {
+        fetch(process.env.PUBLIC_URL + "/assets/content/works/works-inside-images.json",myInit).then(response => {
             return response.json();
         }).then(data => {
             let images = Object(data.filter(work => {
@@ -98,7 +105,7 @@ class WorksInside extends Component {
             this.setState({ imageList: images });
         });
 
-        fetch(process.env.PUBLIC_URL + "/assets/content/gallery/galleryItems.json").then(response => {
+        fetch(process.env.PUBLIC_URL + "/assets/content/gallery/galleryItems.json",myInit).then(response => {
             return response.json();
         }).then(data => {
             let gallery = Object(data.filter(gallery => {
