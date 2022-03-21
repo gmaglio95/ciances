@@ -1,0 +1,39 @@
+
+/*********************************************************************************************
+
+5. Homepage widgets
+
+*********************************************************************************************/
+
+.widgetized-section .widget {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.featured_page_wrap,
+.elementor-widget-container .portfolio-showcase,
+.widgetized-section .widget.portfolio-showcase,
+.widgetized-section .widget.wpzoom-portfolio-scroller {
+    max-width: 100%;
+    padding: 0;
+}
+
+.featured_page_wrap,
+.elementor-widget-container .portfolio-showcase,
+.widgetized-section .widget.portfolio-showcase  {
+    border-bottom: 1px solid #eee;
+}
+
+.featured_page_wrap.featured_page_wrap--with-background {
+    border-bottom: none;
+}
+
+.recent-posts {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.no-results,
+.error404 .recent-posts {
+    padding-bottom: 50px;
+}

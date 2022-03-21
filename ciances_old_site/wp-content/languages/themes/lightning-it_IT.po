@@ -1,0 +1,744 @@
+# Translation of Themes - Lightning in Italian
+# This file is distributed under the same license as the Themes - Lightning package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-20 10:52:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Themes - Lightning\n"
+
+#. Theme Name of the plugin/theme
+msgid "Lightning"
+msgstr "Lightning"
+
+#. Description of the plugin/theme
+msgid "Lightning is a very simple & easy to customize theme which is based on the Bootstrap. It is also very friendly with custom post types and custom taxonomies. When you add a new one, the breadcrumbs will be adjusted and posts will look beautifully without editing or adding a template files."
+msgstr "Lightning è un tema molto semplice e facile da personalizzare, basato su Bootstrap. Supporta bene anche i tipi di articoli personalizzati e le tassonomie personalizzate. Quando ne aggiungi una, i breadcrumbs le sistemeranno e gli articoli saranno belli anche senza ulteriori modifiche o aggiunte di file template."
+
+#: functions_customizer.php:254
+msgid "Recommended image size : 1900*500px"
+msgstr "Dimensione dell'immagine consigliata: 1900*500px"
+
+#: functions_customizer.php:113
+msgid "Recommended image size : 280*60px"
+msgstr "Dimensione dell'immagine consigliata: 280*60px"
+
+#: inc/front-page-pr.php:103
+msgctxt "lightning theme-customizer"
+msgid "Link URL"
+msgstr "URL del link"
+
+#: inc/front-page-pr.php:92
+msgctxt "lightning theme-customizer"
+msgid "Text"
+msgstr "Testo"
+
+#: inc/front-page-pr.php:81
+msgctxt "lightning theme-customizer"
+msgid "Title"
+msgstr "Titolo"
+
+#: inc/front-page-pr.php:69
+msgctxt "lightning theme-customizer"
+msgid "Icon "
+msgstr "Icona"
+
+#: inc/front-page-pr.php:149
+msgid "Lightning is includes to a variety of ideas for making it easier to business site. Please experience the ease of use of the Lightning."
+msgstr "Lightning include varie idee per rendere più semplice il tuo sito affari. Prova l'esperienza di facilità d'uso di Lihgtning."
+
+#: inc/front-page-pr.php:148
+msgid "By using the plug-in \"VK All in One Expansion Unit (free)\", you can use the various functions and rich widgets."
+msgstr "Attraverso l'uso del plugin \"VK All in One Expansion Unit (gratis)\", puoi aggiungere molte funzioni e widget."
+
+#: inc/front-page-pr.php:147
+msgid "Lightning is a simple and customize easy theme. It corresponds by the outstanding versatility to the all-round also in business sites and blogs."
+msgstr "Lightning è un tema semplice e facile da personalizzare. È versatile e ben si adatta anche per siti affari e blog."
+
+#: inc/front-page-pr.php:144
+msgid "Surprisingly easy"
+msgstr "Così facile che ti sorprenderà"
+
+#: inc/front-page-pr.php:143
+msgid "Powerful features"
+msgstr "Funzionaità potenti"
+
+#: inc/front-page-pr.php:142
+msgid "For all purposes"
+msgstr "Per tutti gli scopi"
+
+#: inc/front-page-pr.php:31
+msgid "* If you want to use the more advanced features and set a PR Block anywhere, please Install the WordPress official directory registration plug-in \"VK All in One Expansion Unit (Free)\" and use the \"VK PR Blocks widgets\". "
+msgstr "* Se vuoi usare le funzionalità avanzate e impostare un PR Block dove vuoi, installa il plug-in \"VK All in One Expansion Unit (Free)\" e usa i \"VK PR Blocks widgets\". "
+
+#: inc/front-page-pr.php:26
+msgctxt "lightning theme-customizer"
+msgid "Display Front Page PR Block"
+msgstr "Visualizza i Blocchi PR nella pagina principale"
+
+#: inc/front-page-pr.php:12
+msgctxt "lightning theme-customizer"
+msgid "Lightning Front Page PR Block"
+msgstr "Blocchi PR per la pagina principale di Lightning"
+
+#. Template Name of the plugin/theme
+msgid "Landing Page"
+msgstr "Landing Page"
+
+#: functions.php:259
+msgid "LP widget \""
+msgstr "Widget LP \""
+
+#: inc/class-design-manager.php:34
+msgid "If you change the skin, please save once and reload the page."
+msgstr "Se vuoi cambiare l'aspetto grafico, salvane uno e ricarica la pagina."
+
+#: functions_customizer.php:140
+msgctxt "lightning theme-customizer"
+msgid "Don't show default content(Post list or Front page) at home page"
+msgstr "Non mostrare i contenuti predefiniti (elenco degli articoli o pagina principale) nella pagina home."
+
+#: inc/class-design-manager.php:36
+msgid "*There is also a case where there is no skin-specific installation item."
+msgstr "*Ci sono anche casi in cui non ci sono elementi grafici specifici."
+
+#: inc/class-design-manager.php:35
+msgid "If you reload after the saving, it will be displayed skin-specific configuration items."
+msgstr "Se hai caricato di nuovo la pagina dopo il salvataggio, gli elementi della configurazione grafica che hai scelto saranno visualizzati."
+
+#: inc/class-design-manager.php:31
+msgid "Design skin"
+msgstr "Aspetto grafico"
+
+#: functions_customizer.php:53
+msgctxt "lightning theme-customizer"
+msgid "Lightning Design settings"
+msgstr "Impostazioni di Lightning Design"
+
+#: functions_customizer.php:238
+msgctxt "lightning theme-customizer"
+msgid "Open in new window."
+msgstr "Apri in una nuova finestra."
+
+#. Template Name of the plugin/theme
+msgid "No sidebar"
+msgstr "No sidebar"
+
+#: sidebar-post.php:59
+msgid "Archive"
+msgstr "Archivio"
+
+#: single.php:61
+msgid "Tags"
+msgstr "Tag"
+
+#: single.php:41
+msgid "<dl><dt>%s</dt><dd>%l</dd></dl>"
+msgstr "<dl><dt>%s</dt><dd>%l</dd></dl>"
+
+#: sidebar-post.php:50
+msgid "Category"
+msgstr "Categoria"
+
+#: sidebar-post.php:22
+msgid "Recent posts"
+msgstr "Articoli recenti"
+
+#: module_pageTit.php:39 module_panList.php:211
+msgid "Search Results for : %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: module_loop_post_meta.php:11
+msgid "Last updated"
+msgstr "Ultimo aggiornamento"
+
+#: module_pageTit.php:41 module_panList.php:204
+msgid "Not found"
+msgstr "Non trovato"
+
+#: functions_helpers.php:192
+msgid "Copyright &copy; %s All Rights Reserved."
+msgstr "Copyright &copy; %s All Rights Reserved."
+
+#: functions_helpers.php:197
+msgid "<p>Powered by <a href=\"https://wordpress.org/\">WordPress</a> &amp; <a href=\"https://lightning.nagoya\" target=\"_blank\" title=\"Free WordPress Theme Lightning\"> Lightning Theme</a> by Vektor,Inc. technology.</p>"
+msgstr "<p>Powered by <a href=\"https://wordpress.org/\">WordPress</a> &amp; <a href=\"https://lightning.nagoya\" target=\"_blank\" title=\"Free WordPress Theme Lightning\"> Lightning Theme</a> by Vektor,Inc. technology.</p>"
+
+#: inc/tgm-plugin-activation/tgm-config.php:92
+msgid "This theme recommends the following plugin: %1$s.<br>Many additional functions are available for free."
+msgid_plural "This theme recommends the following plugins: %1$s.<br>Many additional functions are available for free."
+msgstr[0] "Questo tema consiglia il plugin: %1$s.<br>Molte funzionalità aggiuntive sono disponibili gratis."
+msgstr[1] "Questo tema consiglia i plugin: %1$s.<br>Molte funzionalità aggiuntive sono disponibili gratis."
+
+#: module_loop_post.php:17
+msgid "Read more"
+msgstr "Leggi il seguito"
+
+#: functions_helpers.php:179
+msgid "Archives"
+msgstr "Archivi"
+
+#: functions_helpers.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: functions_helpers.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: functions_helpers.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: functions.php:197
+msgid "This widget area appears on the %s contents page only."
+msgstr "Questa area dei widget sarà visibile solo nella pagina dei contenuti %s."
+
+#: functions_customizer.php:166
+msgctxt "lightning theme-customizer"
+msgid "Lightning Home page slide show"
+msgstr "Slide show della pagina Home di Lightning "
+
+#: functions_customizer.php:229
+msgctxt "lightning theme-customizer"
+msgid "Slide image link url"
+msgstr "URL del link dell'immagine della slide"
+
+#: functions_customizer.php:250
+msgctxt "lightning theme-customizer"
+msgid "Slide image"
+msgstr "Immagine della slide"
+
+#: functions.php:156
+msgid "Sidebar(Home)"
+msgstr "Barra laterale (Home)"
+
+#: front-page.php:72 index.php:76
+msgid "No posts."
+msgstr "Nessun articolo."
+
+#: functions.php:172
+msgid "Sidebar(Common bottom)"
+msgstr "Barra laterale (fondo comune)"
+
+#: functions.php:164
+msgid "Sidebar(Common top)"
+msgstr "Barra laterale (in cima comune)"
+
+#: functions.php:195
+msgid "Sidebar(%s)"
+msgstr "Barra laterale (%s)"
+
+#: functions.php:221
+msgid "Widget area of upper footer"
+msgstr "Area dei widget nella parte alta del footer"
+
+#: functions.php:210
+msgid "Home content top"
+msgstr "Contenuti in alto nella Home"
+
+#: functions.php:236
+msgid "Footer widget area "
+msgstr "Area dei widget nel footer"
+
+#: functions_customizer.php:109
+msgctxt "lightning theme-customizer"
+msgid "Header logo image"
+msgstr "Immagine del logo dell'header"
+
+#: functions_customizer.php:125
+msgctxt "lightning theme-customizer"
+msgid "Key color(dark)"
+msgstr "Colore chiave (scuro)"
+
+#: functions_customizer.php:119
+msgctxt "lightning theme-customizer"
+msgid "Key color"
+msgstr "Colore chiave"
+
+#: functions_customizer.php:133
+msgctxt "lightning theme-customizer"
+msgid "Don't show sidebar on home page"
+msgstr "Non mostrare la barra laterale nella pagina Home"
+
+#: functions_customizer.php:147
+msgctxt "lightning theme-customizer"
+msgid "Hide modified date on single pages."
+msgstr "Nascondi le date modificate nelle singole pagine."
+
+#: functions_customizer.php:154
+msgctxt "lightning theme-customizer"
+msgid "Don't display post author on a single page"
+msgstr "Non visualizzare l'autore dell'articolo nelle singole pagine"
+
+#: functions_customizer.php:219
+msgctxt "lightning theme-customizer"
+msgid "Slide image title"
+msgstr "Titolo dell'immagine della slide"
+
+#: functions_customizer.php:224
+msgid "This title text is print to alt tag."
+msgstr "Questo testo del titolo è la stampa del tag alt."
+
+#: functions_helpers.php:158
+msgid "Author: %s"
+msgstr "Autore: %s"
+
+#: front-page.php:63 index.php:70
+msgid "Page"
+msgstr "Pagina"
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi"
+
+#: comments.php:39 comments.php:60
+msgid "Newer Comments"
+msgstr "Nuovi commenti"
+
+#: comments.php:38 comments.php:59
+msgid "Older Comments"
+msgstr "Commenti più vecchi"
+
+#: comments.php:35 comments.php:56
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un pensiero riguardo &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensieri riguardo &ldquo;%2$s&rdquo;"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3376
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installazione Plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3375
+msgid "All installations have been completed."
+msgstr "Tutte le installazioni sono state completate."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3370
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installo e attivo plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3373
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Il processo di installazione si avvia. Questo processo può richiedere tempo su alcuni host, quindi per favore sii paziente."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3374
+msgid "%1$s installed successfully."
+msgstr "%1$s installato con successo"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3369
+msgid "All installations and activations have been completed."
+msgstr "Tutte le installazioni e le attivazioni sono state completate."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3368
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3374
+msgid "Hide Details"
+msgstr "Nascondi dettagli"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3368
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installato e attivato con successo"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3368
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3374
+msgid "Show Details"
+msgstr "Mostra dettagli"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3363
+msgid "The installation of %1$s failed."
+msgstr "L'installazione di %1$s fallita"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3367
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Il processo di installazione e l'attivazione sta iniziando. Questo processo può richiedere tempo su alcuni host, quindi per favore sii paziente."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3362
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Errore durante l'installazione %1$s: <strong>%2$s</strong>."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3360
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aggiornamento plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2679
+msgid "No plugins are available to be installed at this time."
+msgstr "Nessun plugin è  disponibile per l'installazione. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2812
+msgid "No plugins are available to be activated at this time."
+msgstr "Nessun plugin è disponibile per l'attivazione. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2641
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Nessun plugin è stato selezionato per l'installazione. L'azione non è  stata eseguita"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Nessun plugin è stato selezionato per l'aggiornamento. L'azione non è  stata eseguita"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be updated at this time."
+msgstr "Nessun plugin è al momento disponibile per  l'aggiornamento. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2786
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Nessun plugin è stato selezionato per l'attivazione. L'azione non è  stata eseguita. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3026
+msgid "Plugin activation failed."
+msgstr "Attivazione plugin fallita"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2610
+msgid "Activate"
+msgstr "Attivare"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2607
+msgid "Update"
+msgstr "Aggiornamento"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2489
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr "Installa %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2493
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr " Aggiorna %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr "Attiva %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2568
+msgid "Upgrade message from the plugin author:"
+msgstr "Messaggio di aggiornamento dall'autore del plugin:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2601
+msgid "Install"
+msgstr "Installa"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2441
+msgid "Status"
+msgstr "Stato"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2440
+msgid "Version"
+msgstr "Versione"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2436
+msgid "Type"
+msgstr "Tipo"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2435
+msgid "Source"
+msgstr "Sorgente"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2287
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Attivare il <span class=\"count\">(%s)</span>"
+msgstr[1] "Attivare i <span class=\"count\">(%s)</span>"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2369
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "sconosciuto"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2377
+msgid "Installed version:"
+msgstr "Versione installata:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2385
+msgid "Minimum required version:"
+msgstr "Versione minima richiesta:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2420
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr "Nessun plugin da installare,   aggiornare o attivare. <a href=\"%1$s\">Ritorna alla Bacheca</a>"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2397
+msgid "Available version:"
+msgstr "Versione disponibile:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2434
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2284
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Aggiornamento disponibile <span class=\"count\">(%s)</span>"
+msgstr[1] "Aggiornamenti disponibili <span class=\"count\">(%s)</span>"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2281
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Installare il <span class=\"count\">(%s)</span>"
+msgstr[1] "Installare i <span class=\"count\">(%s)</span>"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2219
+msgid "Required Update not Available"
+msgstr "L'aggiornamento richiesto non è disponibile"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2222
+msgid "Requires Update"
+msgstr "Aggiornamento richiesto"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2225
+msgid "Update recommended"
+msgstr "Aggiornamento consigliato"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2233
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2278
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tutto <span class=\"count\">(%s)</span>"
+msgstr[1] "Tutti <span class=\"count\">(%s)</span>"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2213
+msgid "Active"
+msgstr "Attivo"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2207
+msgid "Not Installed"
+msgstr "Non installato"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2211
+msgid "Installed But Not Activated"
+msgstr "Installato ma non attivato"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2184
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2190
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2187
+msgid "External Source"
+msgstr "Fonte esterna "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2168
+msgid "Recommended"
+msgstr "Raccomandato"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:933
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Il pacchetto remoto del plugin non contiene una cartella con lo slug desiderato e non è possibile rinominare. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:933
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:936
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Contatta il fornitore del plugin per chiedergli di preparare il plugin secondo le linee guida di WordPress. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:936
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Il pacchetto remoto del plugin comprende più file ma questi file on sono raggruppati in una cartella. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1114
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2826
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "e"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1879
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2165
+msgid "Required"
+msgstr "Obbligatorio"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#: inc/tgm-plugin-activation/tgm-config.php:150
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Non verrà eseguita alcuna azione. Il plugin %1$s è già attivo. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+#: inc/tgm-plugin-activation/tgm-config.php:151
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Il plugin non è stato attivato. Per questo tema è necessaria una versione più recente di %s. Aggiornare il plugin. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+#: inc/tgm-plugin-activation/tgm-config.php:152
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tutti i plugin installati e attivati ​​con successo. %1$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Elimina il presente avviso"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:405
+#: inc/tgm-plugin-activation/tgm-config.php:153
+msgid "Please contact the administrator of this site for help."
+msgstr "Contattare l'amministratore del sito per chiedere aiuto. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Questo plugin deve essere aggiornato per essere compatibile con il tema. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr "Imposta la variabile di configurazione parent_slug"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "È richiesto l'aggiornamento "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:826
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3436
+msgid "Return to the Dashboard"
+msgstr "Ritorna alla Bacheca"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Ritorna alla Bacheca"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3027
+#: inc/tgm-plugin-activation/tgm-config.php:148
+msgid "Plugin activated successfully."
+msgstr "Plugin installato corretamente"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:400
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2830
+#: inc/tgm-plugin-activation/tgm-config.php:149
+msgid "The following plugin was activated successfully:"
+msgstr "Il seguente plugin è stato attivato con successo:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: inc/tgm-plugin-activation/tgm-config.php:147
+msgid "Return to Required Plugins Installer"
+msgstr "Ritorna all' Installer del plugin richiesto"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:377
+#: inc/tgm-plugin-activation/tgm-config.php:127
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "Non hai l'autorizzazione per attivare il %1$s plugin. "
+msgstr[1] "Non hai il permesso per attivare i %1$s plugin. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:382
+#: inc/tgm-plugin-activation/tgm-config.php:132
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Inizio installazione plugin"
+msgstr[1] "Inizio installazione plugin"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin-activation/tgm-config.php:137
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Iniziare l'aggiornamento del plugin"
+msgstr[1] "Iniziare l'aggiornamento dei plugin"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#: inc/tgm-plugin-activation/tgm-config.php:142
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Inizio attivazione plugin"
+msgstr[1] "Inizio attivazione plugin"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:357
+#: inc/tgm-plugin-activation/tgm-config.php:107
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "C'è un aggiornamento disponibile per: %1$s."
+msgstr[1] "Sono disponibili degli aggiornamenti per i seguenti plugin: %1$s."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:362
+#: inc/tgm-plugin-activation/tgm-config.php:112
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "Non hai l'autorizzazione per aggiornare il %1$s plugin. "
+msgstr[1] "Non hai l'autorizzazione per aggiornare i %1$s plugin. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:367
+#: inc/tgm-plugin-activation/tgm-config.php:117
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Il seguente plugin richiesto &egrave; al momento inattivo: %1$s."
+msgstr[1] "I seguenti plugin richiesti sono al momento inattivi: %1$s."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:372
+#: inc/tgm-plugin-activation/tgm-config.php:122
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Il seguente plugin raccomandato &egrave; al momento inattivo: %1$s."
+msgstr[1] "I seguenti plugin raccomandati sono al momento inattivi: %1$s."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Questo tema raccomanda il seguente plugin: %1$s."
+msgstr[1] "Questo tema raccomanda i seguenti plugin: %1$s."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:347
+#: inc/tgm-plugin-activation/tgm-config.php:97
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "Non hai l'autorizzazione per installare il plugin %1$s. "
+msgstr[1] "Non hai l'autorizzazione per installare i plugin %1$s. "
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:352
+#: inc/tgm-plugin-activation/tgm-config.php:102
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Il seguente plugin deve essere aggiornato per garantire la massima compatibilità con questo tema: %1$s."
+msgstr[1] "I seguenti plugin devono essere aggiornati per garantire la massima compatibilità con questo tema: %1$s."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+#: inc/tgm-plugin-activation/tgm-config.php:87
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Questo tema richiede il seguente plugin: %1$s."
+msgstr[1] "Questo tema richiede i seguenti plugin: %1$s."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:336
+#: inc/tgm-plugin-activation/tgm-config.php:86
+msgid "Something went wrong with the plugin API."
+msgstr "Qualcosa è andato storto con l'API plugin."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+#: inc/tgm-plugin-activation/tgm-config.php:85
+msgid "Installing Plugin: %s"
+msgstr "Installazione plugin: %s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+#: inc/tgm-plugin-activation/tgm-config.php:83
+msgid "Install Required Plugins"
+msgstr "Installa i Plugins richiesti"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+#: inc/tgm-plugin-activation/tgm-config.php:84
+msgid "Install Plugins"
+msgstr "Installa plugin"
+
+#. Theme URI of the plugin/theme
+msgid "https://lightning.nagoya"
+msgstr "https://lightning.nagoya"
+
+#. Author of the plugin/theme
+msgid "Vektor,Inc."
+msgstr "Vektor,Inc."
