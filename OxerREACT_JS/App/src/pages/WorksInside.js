@@ -4,9 +4,6 @@ import { Redirect } from "react-router-dom";
 import Loading from '../blocks/loading/Loading';
 import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
-import WorksInsideJson from '../data/works/works-inside.json';
-import WorksInsideImageJson from '../data/works/works-inside-images.json';
-import GalleryItemsData from '../data/gallery/galleryItems';
 
 class WorksInside extends Component {
 
@@ -77,21 +74,49 @@ class WorksInside extends Component {
 
 
     componentDidMount() {
-        let workInside = Object(WorksInsideJson.filter(work => {
-            return work.idGallery == this.props.match.params.id;
-        }));
-        let images = Object(WorksInsideImageJson.filter(work => {
-            return work.idGallery == this.props.match.params.id;
-        }));
+        let myHeaders = new Headers();
+        myHeaders.append('pragma', 'no-cache');
+        myHeaders.append('cache-control', 'no-cache');
+        
+        let myInit = {
+          method: 'GET',
+          headers: myHeaders,
+        };
+        fetch(process.env.PUBLIC_URL + "/assets/content/works/works-inside.json",myInit).then(response => {
+            return response.json();
+        }).then(data => {
+            console.log(data);
+            let workInside = Object(data.filter(work => {
+                return work.idGallery == this.props.match.params.id;
+            }));
+            if (workInside[0]) {
+                this.setState({ workInsideItem: workInside[0] });
+            } else {
+                window.location.href = process.env.PUBLIC_URL + "/404";
+            }
+        });
 
-        let gallery = Object(GalleryItemsData.filter(gallery => {
-            return gallery.id == this.props.match.params.id;
-        }));
-        if (workInside && workInside[0] && gallery[0]) {
-            this.setState({ workInsideItem: workInside[0], imageList: images, galleryImgLink: gallery[0].imgLink });
-        } else {
-            window.location.href = process.env.PUBLIC_URL + "/404";
-        }
+        fetch(process.env.PUBLIC_URL + "/assets/content/works/works-inside-images.json",myInit).then(response => {
+            return response.json();
+        }).then(data => {
+            let images = Object(data.filter(work => {
+                return work.idGallery == this.props.match.params.id;
+            }));
+            this.setState({ imageList: images });
+        });
+
+        fetch(process.env.PUBLIC_URL + "/assets/content/gallery/galleryItems.json",myInit).then(response => {
+            return response.json();
+        }).then(data => {
+            let gallery = Object(data.filter(gallery => {
+                return gallery.id == this.props.match.params.id;
+            }));
+            if (gallery[0]) {
+                this.setState({ galleryImgLink: gallery[0].imgLink });
+            } else {
+                window.location.href = process.env.PUBLIC_URL + "/404";
+            }
+        });
     }
 
 

@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Isotope from 'isotope-layout';
 import ImagesLoaded from 'imagesloaded';
 import PropTypes from 'prop-types';
-import GalleryMenuData from '../../data/gallery/galleryMenu';
-import GalleryItemsData from '../../data/gallery/galleryItems';
 
 class Gallery extends Component {
     constructor(props) {
@@ -12,7 +10,8 @@ class Gallery extends Component {
 
         this.state = {
             selected: 0,
-            list: GalleryMenuData
+            list: [],
+            works: []
         };
     }
 
@@ -51,20 +50,37 @@ class Gallery extends Component {
         var gallery_items_name = this.grid;
         var gallery_item_name = '.gallery-item';
 
-        var iso = new Isotope(gallery_items_name, {
-            itemSelector: gallery_item_name,
-            masonry: {
-                horizontalOrder: true
-            }
-        });
+        let myHeaders = new Headers();
+        myHeaders.append('pragma', 'no-cache');
+        myHeaders.append('cache-control', 'no-cache');
+        
+        let myInit = {
+          method: 'GET',
+          headers: myHeaders,
+        };
 
-        var imgLoad = new ImagesLoaded(gallery_items_name);
-        var zhis = this;
-        imgLoad.on('progress', function (instance, image) {
-            iso.layout();
-            zhis.onFilterChange(GalleryMenuData[0].filter);
+        fetch(process.env.PUBLIC_URL + "/assets/content/gallery/galleryMenu.json",myInit).then(response => {
+            return response.json();
+        }).then(menu => {
+            fetch(process.env.PUBLIC_URL + "/assets/content/gallery/galleryItems.json",myInit).then(response => {
+                return response.json();
+            }).then(items => {
+                this.setState({ list: menu, works: items});
+                var iso = new Isotope(gallery_items_name, {
+                    itemSelector: gallery_item_name,
+                    masonry: {
+                        horizontalOrder: true
+                    }
+                });
+
+                var imgLoad = new ImagesLoaded(gallery_items_name);
+                var zhis = this;
+                imgLoad.on('progress', function (instance, image) {
+                    iso.layout();
+                    zhis.onFilterChange(menu[0].filter);
+                });
+            });
         });
-        ;
     }
 
     render() {
@@ -101,26 +117,14 @@ class Gallery extends Component {
                 </div>
                 <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
                     <div className="gallery-items" ref={(c) => this.grid = c}>
-                        {GalleryItemsData && GalleryItemsData.map((item, key) => {
+                        {this.state.works.map((item, key) => {
                             return (
-                                
-                                <a key={key} title={item.title} className={"gallery-item active " + item.category} target={item.otherPage ? '_blank' : null} href={item.otherPage ? item.link : process.env.PUBLIC_URL + item.link + "/" + item.id}> 
+                                <a key={key} title={item.title} className={"gallery-item active " + item.category} target={item.otherPage ? '_blank' : null} href={item.otherPage ? item.link : process.env.PUBLIC_URL + item.link + "/" + item.id}>
                                     <div className="img object-fit">
                                         <div className="object-fit-contain">
-                                            <img src={process.env.PUBLIC_URL + item.imgLink} alt={process.env.PUBLIC_URL  + item.title} /> 
+                                            <img src={process.env.PUBLIC_URL + item.imgLink} alt={process.env.PUBLIC_URL + item.title} />
                                         </div>
                                     </div>
-
-                                    {/* <div className="gallery-hover">
-                                        <div className="gallery-hover-wrapper">
-                                            <h3>{item.title}</h3>
-
-                                            <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {item.button}
-                                                <i className="icon-c icon-arrow-right" />
-                                            </span>
-                                        </div>
-                                    </div> */}
                                 </a>
                             );
                         })}
